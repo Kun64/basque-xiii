@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rugby Basque XIII</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <div class="max-w-6xl mx-auto px-4 py-6">
+
+    <!-- NAV -->
+    <nav class="flex items-center justify-between py-4">
+      <div class="flex items-center gap-3">
+        <img src="images/logo.jpeg" alt="Logo Rugby Basque XIII" class="h-20 w-auto">
+        <div>
+          <div class="font-extrabold text-gray-800">Basque XIII</div>
+          <div class="text-sm text-gray-500">Fondé en 2025</div>
+        </div>
+      </div>
+
+      <!-- Desktop menu -->
+      <ul class="hidden md:flex items-center gap-6 font-semibold text-gray-600">
+        <li><a href="#about" class="hover:text-green-700">Le club</a></li>
+        <li><a href="#calendrier" class="hover:text-green-700">Calendrier</a></li>
+        <li><a href="#contact" class="hover:text-green-700">Contact</a></li>
+      </ul>
+
+      <!-- Burger button -->
+      <button id="burger" class="md:hidden text-gray-700 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"/>
+        </svg>
+      </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden flex-col gap-4 mt-3 bg-white rounded-lg shadow-md p-4 md:hidden">
+      <a href="#about" class="text-gray-700 font-semibold hover:text-green-700">Le club</a>
+      <a href="#calendrier" class="text-gray-700 font-semibold hover:text-green-700">Calendrier</a>
+      <a href="#contact" class="text-gray-700 font-semibold hover:text-green-700">Contact</a>
+    </div>
+  </div>
+
+  <!-- HERO FULL WIDTH -->
+  <section class="relative bg-cover bg-center bg-no-repeat text-white"
+           style="background-image: url('images/photo1.jpg');">
+    <!-- overlay -->
+    <div class="absolute inset-0 bg-black/50"></div>
+
+    <!-- contenu centré -->
+    <div class="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-8 items-center py-16 px-6">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4">
+          Basque XIII — Force, Fierté, Communauté
+        </h1>
+        <p class="text-lg text-gray-100 mb-6">
+          Un nouveau souffle pour le rugby à XIII dans la région — équipe sénior, entraînements ouverts et une volonté de rayonner localement.
+        </p>
+        <a href="#calendrier" class="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold shadow">
+          Voir le calendrier
+        </a>
+
+        <!-- Cards -->
+        <div class="grid sm:grid-cols-3 gap-4 mt-8">
+          <div class="bg-white/70 border border-green-100 rounded-xl p-4 shadow-sm text-gray-800">
+            <h3 class="font-bold text-lg mb-1 text-green-700">Entraînements</h3>
+            <p class="text-sm text-gray-600">Tous les mercredis — 19h00 - 21h00</p>
+            <p class="text-sm text-gray-600">Tous les samedis — 10h00 - 12h00</p>
+            <p class="mt-2">1 allée Raoul Follereau, 64600 ANGLET</p>
+          </div>
+          <div class="bg-white/70 border border-green-100 rounded-xl p-4 shadow-sm text-gray-800">
+            <h3 class="font-bold text-lg mb-1 text-green-700">Recrutement</h3>
+            <p class="text-sm text-gray-600">Équipe sénior</p>
+            <p class="mt-2">À partir de 18 ans</p>
+            <a href="#contact" class="text-gray-700 font-semibold hover:text-green-700">Contact</a>
+          </div>
+          <div class="bg-white/70 border border-green-100 rounded-xl p-4 shadow-sm text-gray-800">
+            <h3 class="font-bold text-lg mb-1 text-green-700">Partenaires</h3>
+            <p class="text-sm text-gray-600">Soutenez le projet</p>
+            <p class="mt-2">Formules de sponsoring et mécénat locales.</p>
+            <a href="#contact" class="text-gray-700 font-semibold hover:text-green-700">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prochain match -->
+      <aside class="space-y-6">
+        <div class="bg-white/70 rounded-xl p-6 shadow border border-gray-100 text-gray-800">
+          <div class="flex items-center justify-between mb-4">
+            <div>
+              <p class="text-sm text-gray-500">Prochains matchs</p>
+              <p class="font-bold mt-1">Nantes vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
+              <p class="text-sm text-gray-500 mt-1">18-19 Octobre — Extérieur</p>
+              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valdériès</p>
+              <p class="text-sm text-gray-500 mt-1">01-02 Novembre — Anglet - Stade Girouette</p>
+            </div>
+          </div>
+          <!--<div class="flex items-center justify-between border-t pt-4">
+            <div>
+              <p class="text-sm text-gray-500">Billets</p>
+              <p class="font-semibold">Entrée libre — Buvette & animation</p>
+            </div>
+            <a href="#billets" class="bg-green-700 hover:bg-green-800 text-white px-4 py-2 rounded-lg font-semibold">
+              Réserver
+            </a>
+          </div>-->
+        </div>
+
+        <div class="bg-white/70 rounded-xl p-6 shadow border border-gray-100 text-gray-800">
+          <h3 class="font-bold mb-2">Suivez-nous</h3>
+          <p class="text-sm text-gray-600 mb-4">Restez informés des actualités</p>
+          <div class="flex gap-3">
+            <a href="https://www.facebook.com/p/Basque-XIII-61579261011815/" target="_blank" class="border rounded-lg px-3 py-2 text-sm hover:bg-gray-50">Facebook</a>
+            <a href="https://www.instagram.com/basquexiii/" target="_blank" class="border rounded-lg px-3 py-2 text-sm hover:bg-gray-50">Instagram</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- CONTENU APRES HERO -->
+  <div class="max-w-6xl mx-auto px-4">
+
+    <!-- ACTUALITÉS -->
+    <section class="mt-12">
+      <div class="flex items-center justify-between mb-4">
+        <h2 class="text-2xl font-bold text-green-700">Actualités</h2>
+        <!--<a href="#news" class="text-sm text-gray-500 hover:text-green-700">Voir toutes les actus</a>-->
+      </div>
+      <div class="space-y-4">
+        <a href="https://treizemondial.fr/basque-xiii-jouera-officiellement-en-dn3/" target="_blank">
+          <div class="flex items-start gap-4 bg-green-50 border border-green-100 rounded-xl p-4 shadow-sm">
+            <img src="images/logo.jpeg" alt="Logo Rugby Basque XIII" class="h-20 w-auto">
+            <div>
+              <p class="text-sm text-gray-600">6 Septembre 2025 - Treize Mondial</p>
+              <p class="font-semibold">Basque XIII jouera officiellement en DN3</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://treizemondial.fr/olivier-dumeaux-faire-perdurer-le-club-historique-de-cote-basque-xiii/" target="_blank">
+          <div class="flex items-start gap-4 bg-green-50 border border-green-100 rounded-xl p-4 shadow-sm">
+            <img src="images/logo.jpeg" alt="Logo Rugby Basque XIII" class="h-20 w-auto">
+            <div>
+              <p class="text-sm text-gray-600">27 Août 2025 - Treize Mondial</p>
+              <p class="font-semibold">Olivier Dumeaux : « Faire perdurer le club historique de Côte Basque XIII »</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://www.rugbyrama.fr/2025/08/18/rugby-amateur-on-sest-rendu-compte-quil-y-a-beaucoup-de-partisans-la-revolution-du-xiii-au-pays-basque-12880871.php" target="_blank">
+          <div class="flex items-start gap-4 bg-green-50 border border-green-100 rounded-xl p-4 shadow-sm">
+            <img src="images/logo.jpeg" alt="Logo Rugby Basque XIII" class="h-20 w-auto">
+            <div>
+              <p class="text-sm text-gray-600">18 Août 2025 - Rugbyrama</p>
+              <p class="font-semibold">"On s'est rendu compte qu'il y a beaucoup de partisans" : la révolution du XIII au Pays basque</p>
+            </div>
+          </div>
+        </a>
+        <a href="https://www.sudouest.fr/pyrenees-atlantiques/anglet/anglet-on-n-est-pas-si-perdu-dans-la-masse-quinziste-il-tente-le-pari-de-remonter-un-club-de-rugby-a-xiii-au-pays-basque-25506441.php?csnt=1993abecee0" target="_blank">
+          <div class="flex items-start gap-4 bg-green-50 border border-green-100 rounded-xl p-4 shadow-sm" >
+            <img src="images/logo.jpeg" alt="Logo Rugby Basque XIII" class="h-20 w-auto">
+            <div>
+              <p class="text-sm text-gray-600">8 Août 2025 - Sud Ouest</p>
+              <p class="font-semibold">Anglet. « On n’est pas si perdu dans la masse quinziste » : il tente le pari de remonter un club de rugby à XIII au Pays basque</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </div>
+
+    <!-- BAS DE PAGE -->
+    <section class="relative bg-cover bg-center bg-no-repeat py-16 mt-12"
+            style="background-image: url('images/photo2.jpg');">
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-6 px-4">
+        
+        <!-- Calendrier -->
+        <div id="calendrier" class="bg-white/70 shadow rounded-xl p-6 border border-gray-100 text-gray-800">
+          <h3 class="font-bold text-lg mb-2 text-green-700">Calendrier</h3>
+          <p class="text-base text-gray-600 mb-4">Aller</p>
+          <ul class="space-y-2 text-base text-gray-700">
+            <li>
+              <span class="font-semibold">18-19 Octobre</span> — Nantes vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            </li>
+            <li>
+              <span class="font-semibold">01-02 Novembre</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valdériès
+            </li>
+            <li>
+              <span class="font-semibold">15-16 Novembre</span> — Pamiers 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            </li>
+            <li>
+              <span class="font-semibold">29-30 Novembre</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs St Pierre de Trevisy
+            </li>
+            <li>
+              <span class="font-semibold">13-14 Décembre</span> — Villeneuve de Rivière vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            </li>
+            <li>
+              <span class="font-semibold">17-18 Janvier</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs XII Gascon
+            </li>
+            <li>
+              <span class="font-semibold">31 Janvier - 01 Février</span> — Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            </li>
+          </ul>
+          <p class="text-base text-gray-600 mb-4 mt-4">Retour</p>
+          <ul class="space-y-2 text-base text-gray-700">
+            <li>
+              <span class="font-semibold">07-08 Février</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Nantes
+            </li>
+            <li>
+              <span class="font-semibold">21-22 Février</span> — Valdériès vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            </li>
+            <li>
+              <span class="font-semibold">28 Février - 01 Mars</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Pamiers 2
+            </li>
+            <li>
+              <span class="font-semibold">14-15 Mars</span> — St Pierre de Trevisy vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            </li>
+            <li>
+              <span class="font-semibold">21-22 Mars</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Villeneuve de Rivière
+            </li>
+            <li>
+              <span class="font-semibold">04-05 Avril</span> — Nantes vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            </li>
+            <li>
+              <span class="font-semibold">11-12 Avril</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Toulouse Jules Julien
+          </ul>
+        </div>
+
+        <!-- Infos pratiques + Contact -->
+        <div class="space-y-6">
+          <!-- Infos pratiques -->
+          <div class="bg-white/70 shadow rounded-xl p-4 border border-gray-100 text-gray-800">
+            <h3 class="font-bold text-md mb-2 text-green-700">Infos pratiques</h3>
+            <p class="text-sm text-gray-600">Stade des matchs :</p>
+            <p class="text-sm mb-2">Stade Girouette — 13 rue de Girouette, 64600 Anglet</p>
+            <p class="text-sm text-gray-600">Stade des entraînements :</p>
+            <p class="text-sm">1 allée Raoul Follereau, 64600 Anglet</p>
+          </div>
+
+          <!-- Contact -->
+          <div id="contact" class="bg-white/70 shadow rounded-xl p-6 border border-gray-100 text-gray-800">
+            <h3 class="font-bold text-lg mb-2 text-green-700">Contact</h3>
+            <p class="text-sm text-gray-600 mb-4">Pour adhésion, sponsoring ou bénévolat</p>
+            <form action="https://formspree.io/f/xeoldoqj" method="POST" class="space-y-3">
+              <input type="text" name="nom" placeholder="Nom"
+                    class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-700 focus:outline-none">
+              <input type="text" name="prenom" placeholder="Prénom"
+                    class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-700 focus:outline-none">
+              <input type="email" name="email" placeholder="Email"
+                    class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-700 focus:outline-none">
+              <textarea name="message" rows="4" placeholder="Message"
+                        class="w-full border rounded-lg px-3 py-2 focus:ring-2 focus:ring-green-700 focus:outline-none"></textarea>
+              <button type="submit"
+                      class="bg-green-700 hover:bg-green-800 text-white px-5 py-2 rounded-lg font-semibold">
+                Envoyer
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="pt-6 pb-6 border-t text-sm text-gray-500 text-center">
+      <p>© 2025 Basque XIII — Tous droits réservés</p>
+    </footer>
+
+  <script>
+    // Menu burger simple
+    const burger = document.getElementById("burger");
+    const mobileMenu = document.getElementById("mobileMenu");
+    burger.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+  </script>
+</body>
+</html>
