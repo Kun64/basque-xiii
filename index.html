@@ -153,13 +153,13 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500">Dernier match</p>
-              <p class="font-bold mt-1">Nantes 28 - 38 <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
-              <p class="text-sm text-gray-500 mt-1">Samedi 18 Octobre — Nantes</p>
+              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> 26 - 30 Valdériès</p>
+              <p class="text-sm text-gray-500 mt-1">Samedi 01 Novembre — Stade Girouette, Anglet</p>
             </div>
-            <span class="bg-green-700 text-white text-xs font-bold px-3 py-1 rounded-lg">Victoire</span>
+            <span class="bg-red-700 text-white text-xs font-bold px-3 py-1 rounded-lg">Défaite</span>
           </div>
           <div class="border-t pt-3 text-sm text-gray-700">
-            <button class="font-semibold hover:text-green-700" data-resume="resumes/nantes18102025fr.html">
+            <button class="font-semibold hover:text-green-700" data-resume="resumes/valderies01112025fr.html">
               Voir le résumé du match →
             </button>
           </div>
@@ -169,10 +169,10 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500">Prochains matchs</p>
-              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valdériès</p>
-              <p class="text-sm text-gray-500 mt-1">1er Novembre — Anglet - Stade Girouette</p>
               <p class="font-bold mt-1">Pamiers 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1">15-16 Novembre — Extérieur</p>
+              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs St Pierre de Trevisy</p>
+              <p class="text-sm text-gray-500 mt-1">29-30 Novembre — Anglet - Stade Girouette</p>
             </div>
           </div>
         </div>
@@ -279,6 +279,12 @@
           </li>
           <li>
             <span class="font-semibold">01-02 Novembre</span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valdériès
+            <span class="ml-2 font-semibold text-red-700">26 - 30</span>
+            <button
+              class="font-semibold hover:text-green-700 ml-2"
+              data-resume="resumes/valderies01112025fr.html">
+              → Résumé
+            </button>
           </li>
           <li>
             <span class="font-semibold">15-16 Novembre</span> — Pamiers 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
@@ -440,7 +446,7 @@
 
   <!-- POP-UP de résumé -->
   <div id="resume-modal"
-      class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden items-center justify-center z-50 transition-opacity duration-300">
+      class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden items-start justify-center pt-6 z-50 transition-opacity duration-300 overflow-auto">
     <div id="resume-box"
         class="bg-white rounded-xl shadow-xl max-w-xl w-11/12 md:w-[600px] relative p-6 text-gray-800 transform scale-95 opacity-0 transition-all duration-300">
       
