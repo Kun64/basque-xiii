@@ -50,3 +50,51 @@ document.addEventListener("DOMContentLoaded", () => {
   closeBtn.addEventListener("click", closeModal);
   modal.addEventListener("click", e => { if (e.target === modal) closeModal(); });
 });
+
+// Equipes
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Script équipes chargé");
+  const modal = document.getElementById("equipe-modal");
+  const box = document.getElementById("equipe-box");
+  const content = document.getElementById("equipe-content");
+  const closeBtn = document.getElementById("close-equipe");
+
+  document.querySelectorAll("[data-equipe]").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      const url = btn.dataset.equipe;
+      if (!url) return;
+
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+      content.innerHTML = "<p class='text-center text-gray-500'>Chargement...</p>";
+
+      requestAnimationFrame(() => {
+        box.classList.remove("scale-95", "opacity-0");
+        box.classList.add("scale-100", "opacity-100");
+      });
+
+      try {
+        const response = await fetch(url);
+        if (!response.ok) throw new Error("Erreur chargement");
+        const html = await response.text();
+        content.innerHTML = html;
+      } catch {
+        content.innerHTML = "<p class='text-red-600 text-center'>Impossible de charger l’équipe</p>";
+      }
+    });
+  });
+
+  const closeModal = () => {
+    box.classList.remove("scale-100", "opacity-100");
+    box.classList.add("scale-95", "opacity-0");
+    setTimeout(() => {
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }, 250);
+  };
+
+  closeBtn.addEventListener("click", closeModal);
+  modal.addEventListener("click", e => {
+    if (e.target === modal) closeModal();
+  });
+});

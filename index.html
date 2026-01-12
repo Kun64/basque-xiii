@@ -26,7 +26,29 @@
         <!-- Desktop menu -->
         <ul class="hidden md:flex items-center gap-6 font-semibold text-gray-600">
           <li><a href="#about" class="hover:text-green-700">Le club</a></li>
-          <li><a href="#">Boutique</a></li>
+          <li class="relative group">
+            <button class="flex items-center gap-1 hover:text-green-700">
+              Équipes
+              <svg class="w-4 h-4 mt-0.5" fill="none" stroke="currentColor" stroke-width="2"
+                  viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+            <!-- Sous-menu -->
+            <ul class="absolute left-0 mt-2 w-30 bg-white rounded-lg shadow-lg border
+                    opacity-0 invisible group-hover:opacity-100 group-hover:visible
+                    transition-all duration-200 z-50">
+              <li>
+                <button
+                  data-equipe="equipes/seniorsfr.html"
+                  class="w-full text-left px-4 py-2 hover:bg-green-50 hover:text-green-700 rounded-lg
+                        bg-transparent border-0 font-normal">
+                  Séniors
+                </button>
+              </li>
+            </ul>
+          </li>
+          <li><a href="https://basquexiii.fr/boutique/" target="_blank" class="hover:text-green-700">Boutique</a></li>
           <li><a href="#calendrier" class="hover:text-green-700">Calendrier</a></li>
           <li><a href="#contact" class="hover:text-green-700">Contact</a></li>
         </ul>
@@ -51,12 +73,15 @@
 
       <!-- Mobile menu -->
       <div id="mobileMenu" class="hidden flex-col gap-4 mt-3 bg-white rounded-lg shadow-md p-4 md:hidden">
-        <div class="flex gap-4 font-semibold text-sm text-center">
-          <a href="#about" class="text-gray-700 font-semibold hover:text-green-700 mx-auto">Le club</a>
-          <a href="https://www.helloasso.com/associations/xiii-basque/boutiques/boutique" target="_blank"
-          class="text-gray-700 font-semibold hover:text-green-700 mx-auto">Boutique</a>
-          <a href="#calendrier" class="text-gray-700 font-semibold hover:text-green-700 mx-auto">Calendrier</a>
-          <a href="#contact" class="text-gray-700 font-semibold hover:text-green-700 mx-auto">Contact</a>
+        <div class="flex flex-col gap-2 font-semibold text-sm text-center">
+          <a href="#about" class="hover:text-green-700">Le club</a>
+          <div>
+            <p class="text-gray-500 uppercase text-xs tracking-wide mb-1">Équipes</p>
+            <button data-equipe="equipes/seniorsfr.html" class="hover:text-green-700 font-semibold">Séniors</button>
+          </div>
+          <a href="https://basquexiii.fr/boutique/" target="_blank" class="hover:text-green-700">Boutique</a>
+          <a href="#calendrier" class="hover:text-green-700">Calendrier</a>
+          <a href="#contact" class="hover:text-green-700">Contact</a>
         </div>
 
         <!-- Séparateur -->
@@ -71,6 +96,26 @@
       </div>
     </div>
   </div>
+
+  <!-- Bandeau match -->
+  <section class="bg-green-700 text-white">
+    <div class="max-w-6xl mx-auto px-4 py-3 text-center space-y-1">
+
+      <p class="text-sm sm:text-base font-semibold tracking-wide">
+        Samedi 17 janvier &nbsp;›&nbsp;
+        <span class="text-red-500">BASQUE XIII</span> – XIII GASCON
+      </p>
+
+      <p class="text-xs sm:text-sm text-green-100">
+        Stade Aguilera – Terrain du Bendern
+      </p>
+
+      <p class="text-sm sm:text-base font-bold text-white">
+        Venez nombreux ! <span class="text-red-500">GORA</span>
+      </p>
+
+    </div>
+  </section>
 
   <!-- HERO FULL WIDTH -->
   <section class="relative bg-cover bg-center bg-no-repeat text-white"
@@ -137,7 +182,7 @@
             <div>
               <p class="text-sm text-gray-500">Prochains matchs</p>
               <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs XIII Gascon</p>
-              <p class="text-sm text-gray-500 mt-1">17 Janvier — Anglet - Stade Girouette</p>
+              <p class="text-sm text-gray-500 mt-1">17 Janvier — Biarritz - Stade Aguilera - Terrain du Bendern</p>
               <p class="font-bold mt-1">Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1">31 Janvier — Extérieur</p>
             </div>
@@ -443,6 +488,24 @@
       </div>
     </div>
   </div>
+
+  <!-- POP-UP ÉQUIPE -->
+  <div id="equipe-modal"
+      class="fixed inset-0 bg-black/60 backdrop-blur-sm hidden items-start justify-center z-50 p-4 overflow-y-auto">
+    <div id="equipe-box"
+        class="bg-white rounded-xl shadow-xl max-w-4xl w-full mt-6 transform scale-95 opacity-0 transition-all duration-300">
+      
+      <!-- Bouton de fermeture -->
+      <button id="close-equipe"
+              class="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-2xl leading-none">&times;</button>
+
+      <!-- Contenu chargé dynamiquement -->
+      <div id="equipe-content" class="p-4 overflow-y-auto max-h-[85vh] text-gray-800">
+        <p class="text-center text-gray-500">Chargement...</p>
+      </div>
+    </div>
+  </div>
+
   <script src="scripts/script.js"></script>
 </body>
 </html>
