@@ -1,0 +1,141 @@
+{
+    "header": {
+        "logo": {
+            "nom": "Basque XIII",
+            "since": "Since 2025"
+        },
+        "menu": {
+            "club": "Club",
+            "equipes": "Teams",
+            "senior": "Senior",
+            "boutique": "Shop",
+            "calendrier": "Fixtures",
+            "contact": "Contact us"
+        }
+    },
+    "match": {
+        "date": "Saturday, January 17",
+        "lieu": "Stade Aguilera – Terrain du Bendern",
+        "msg": "Refreshment stand, all welcome !"
+    },
+    "hero": {
+        "titre": "Basque XIII — Pride and fithing spirit",
+        "sousTitre": "A new lease of life for rugby league in the region, with a desire to develop.",
+        "calendrier": "See fixtures",
+        "entrainements": {
+            "titre": "Training sessions",
+            "texte1": "Every wednesday — 6:30pm - 8:30pm",
+            "texte2": "Every saturday — 10:30am - 12:30pm",
+            "texte3": "Avenue Abbé Cestac, 64600 ANGLET"
+        },
+        "recrutement": {
+            "titre": "Recruitment",
+            "texte1": "Senior team",
+            "texte2": "From 18 years old"
+        },
+        "partenaires": {
+            "titre": "Partners",
+            "texte1": "Support the project",
+            "texte2": "Sponsorship and patronage"
+        },
+        "dernierMatch": {
+            "titre": "Last match",
+            "victoire": "Victory",
+            "defaite": "Defeat",
+            "dateLieu": "Saturday, November 29 — Stade Girouette, Anglet",
+            "resume": "Match summary →"
+        },
+        "prochainsMatchs": {
+            "titre": "Next matches",
+            "dateLieu1": "January 17 — Biarritz - Stade Aguilera - Terrain du Bendern",
+            "dateLieu2": "January 31 — Away"
+        },
+        "reseaux": {
+            "titre": "Follow us",
+            "texte": "Stay informed about the news"
+        }
+    },
+    "news": {
+        "titre": "News",
+        "news1": {
+            "titre": "Les bons débuts de Basque XIII",
+            "texte": "Sorti de terre cette année, Basque XIII évolue en Nationale 3 Poule Ouest. Olivier Dumeaux, son président-entraîneur et membre fondateur au parloir."
+        },
+        "news2": {
+            "date": "October 19, 2025 - Treize Mondial",
+            "texte": "Basque XIII s'impose à Nantes pour son retour !"
+        },
+        "news3": {
+            "date": "September 6, 2025 - Treize Mondial",
+            "texte": "Basque XIII jouera officiellement en DN3"
+        },
+        "news4": {
+            "date": "August 27, 2025 - Treize Mondial",
+            "texte": "Olivier Dumeaux : « Faire perdurer le club historique de Côte Basque XIII »"
+        },
+        "news5": {
+            "date": "August 18, 2025 - Rugbyrama",
+            "texte": "\"On s'est rendu compte qu'il y a beaucoup de partisans\" : la révolution du XIII au Pays basque"
+        },
+        "news6": {
+            "date": "August 8, 2025 - Sud Ouest",
+            "texte": "Anglet. « On n’est pas si perdu dans la masse quinziste » : il tente le pari de remonter un club de rugby à XIII au Pays basque"
+        }
+    },
+    "calendrier": {
+        "titre": "Fixtures",
+        "aller": "First leg",
+        "retour": "Second leg",
+        "resume": "→ Summary",
+        "matchs": {
+            "date1": "October 18",
+            "date2": "November 1st",
+            "date3": "November 15",
+            "date4": "November 29",
+            "date5": "January 17",
+            "date6": "January 31",
+            "date7": "February 07-08",
+            "date8": "February 21-22",
+            "date9": "February 28 - March 1st",
+            "date10": "March 14-15",
+            "date11": "April 04-05",
+            "date12": "April 11-12"
+        }
+    },
+    "infos": {
+        "titre": "Useful information",
+        "texte1": "Match stadium :",
+        "texte2": "Stade Girouette — 13 rue de Girouette, 64600 Anglet",
+        "texte3": "Training session stadium :",
+        "texte4": "Avenue Abbé Cestac, 64600 Anglet"
+    },
+    "contact": {
+        "titre": "Contact",
+        "texte": "For membership, sponsorship or volunteering",
+        "nom": "Last name",
+        "prenom": "First name",
+        "email": "Mail address",
+        "msg": "Message"
+    },
+    "footer": "© 2025 Basque XIII — All rights reserved",
+    "button": {
+        "contact": "Contact us",
+        "envoyer": "Send"
+    },
+    "chargement": "Loading...",
+
+    "equipes": {
+        "senior": "Senior team – 2025-2026 season",
+        "haut": "TOP :",
+        "bas": "BOTTOM :",
+        "absent": "MISSING :"
+    },
+    "resume": {
+        "titre": "Match summary",
+        "mt": "Half-time",
+        "essai": "try",
+        "essais": "tries",
+        "transfo": "conversion",
+        "transfos": "conversions"
+    }
+}

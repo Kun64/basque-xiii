@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!response.ok) throw new Error("Erreur de chargement");
         const html = await response.text();
         content.innerHTML = html;
+        applyTranslations(content);
       } catch (err) {
         content.innerHTML = "<p class='text-red-600 text-center'>Impossible de charger le résumé 😕</p>";
       }
@@ -78,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!response.ok) throw new Error("Erreur chargement");
         const html = await response.text();
         content.innerHTML = html;
+        applyTranslations(content);
       } catch {
         content.innerHTML = "<p class='text-red-600 text-center'>Impossible de charger l’équipe</p>";
       }
@@ -94,6 +96,28 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   closeBtn.addEventListener("click", closeModal);
+  modal.addEventListener("click", e => {
+    if (e.target === modal) closeModal();
+  });
+});
+
+// Affiche
+document.addEventListener("DOMContentLoaded", () => {
+  const openBtn = document.getElementById("open-affiche");
+  const modal = document.getElementById("affiche-modal");
+
+  if (!openBtn || !modal) return;
+
+  openBtn.addEventListener("click", () => {
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+  });
+
+  const closeModal = () => {
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+  };
+
   modal.addEventListener("click", e => {
     if (e.target === modal) closeModal();
   });

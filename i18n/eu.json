@@ -1,0 +1,141 @@
+{
+    "header": {
+        "logo": {
+            "nom": "Basque XIII",
+            "since": "2025ean sortua"
+        },
+        "menu": {
+            "club": "Elkartea",
+            "equipes": "Taldea",
+            "senior": "Seniorrak",
+            "boutique": "Denda",
+            "calendrier": "Egutegia",
+            "contact": "Kontaktua"
+        }
+    },
+    "match": {
+        "date": "Urtarrilak 17",
+        "lieu": "Stade Aguilera – Terrain du Bendern",
+        "msg": " Jatekoa eta edatekoa, zatozte numbrean !"
+    },
+    "hero": {
+        "titre": "Basque XIII — Harrotasuna eta grina",
+        "sousTitre": "Hats berri bat XIIIko errugbiarentzat lurraldean, garatzeko gogoarekin.",
+        "calendrier": "Ikus egutegia",
+        "entrainements": {
+            "titre": "Entrenamenduak",
+            "texte1": "Asteazken guziz — 18:30 - 20:30",
+            "texte2": "Larunbat guziz — 10:30 - 12:30",
+            "texte3": "Avenue Abbé Cestac, 64600 ANGLET"
+        },
+        "recrutement": {
+            "titre": "Engaia zaitez",
+            "texte1": "Lehen taldea",
+            "texte2": "18 urtetik goiti"
+        },
+        "partenaires": {
+            "titre": "Partaideak",
+            "texte1": "Proiektua sostengatu",
+            "texte2": "Partaidetza eta mezenasgoa"
+        },
+        "dernierMatch": {
+            "titre": "Azken partida",
+            "victoire": "Garaipena",
+            "defaite": "Garaitu",
+            "dateLieu": "Azaroak 29a, larunbata — Stade Girouette, Anglet",
+            "resume": "Partidaren laburpena →"
+        },
+        "prochainsMatchs": {
+            "titre": "Hurrengo partidak",
+            "dateLieu1": "Urtarrilak 17 — Miarritze - Stade Aguilera - Terrain du Bendern",
+            "dateLieu2": "Urtarrilak 31 — Kanpoan"
+        },
+        "reseaux": {
+            "titre": "Segi gaitzazue",
+            "texte": "Berrien jakinean egoteko"
+        }
+    },
+    "news": {
+        "titre": "Berriak",
+        "news1": {
+            "titre": "Les bons débuts de Basque XIII",
+            "texte": "Sorti de terre cette année, Basque XIII évolue en Nationale 3 Poule Ouest. Olivier Dumeaux, son président-entraîneur et membre fondateur au parloir."
+        },
+        "news2": {
+            "date": "2025eko urriak 19 - Treize Mondial",
+            "texte": "Basque XIII s'impose à Nantes pour son retour !"
+        },
+        "news3": {
+            "date": "2025eko irailak 6 - Treize Mondial",
+            "texte": "Basque XIII jouera officiellement en DN3"
+        },
+        "news4": {
+            "date": "2025eko agorrilak 27 - Treize Mondial",
+            "texte": "Olivier Dumeaux : « Faire perdurer le club historique de Côte Basque XIII »"
+        },
+        "news5": {
+            "date": "2025eko agorrilak 18 - Rugbyrama",
+            "texte": "\"On s'est rendu compte qu'il y a beaucoup de partisans\" : la révolution du XIII au Pays basque"
+        },
+        "news6": {
+            "date": "2025eko agorrilak 8 - Sud Ouest",
+            "texte": "Anglet. « On n’est pas si perdu dans la masse quinziste » : il tente le pari de remonter un club de rugby à XIII au Pays basque"
+        }
+    },
+    "calendrier": {
+        "titre": "Egutegia",
+        "aller": "Lehen fasea",
+        "retour": "Bigarren fasea",
+        "resume": "→ Laburpena",
+        "matchs": {
+            "date1": "Urriak 18",
+            "date2": "Azaroak 01",
+            "date3": "Azaroak 15",
+            "date4": "Azaroak 29",
+            "date5": "Urtarrilak 17",
+            "date6": "Urtarrilak 31",
+            "date7": "Otsailak 07-08",
+            "date8": "Otsailak 21-22",
+            "date9": "Otsailak 28 Martxoak 01",
+            "date10": "Martxoak 14-15",
+            "date11": "Apirilak 04-05",
+            "date12": "Apirilak 11-12"
+        }
+    },
+    "infos": {
+        "titre": "Informazio baliagarriak",
+        "texte1": "Partiden zelaia :",
+        "texte2": "Stade Girouette — 13 rue de Girouette, 64600 Anglet",
+        "texte3": "Entrenamenduen zelaia :",
+        "texte4": "Avenue Abbé Cestac, 64600 Anglet"
+    },
+    "contact": {
+        "titre": "Kontaktua",
+        "texte": "Kide, partaide edo laguntzaile izateko",
+        "nom": "Deitura",
+        "prenom": "Izena",
+        "email": "Emaila",
+        "msg": "Mezua"
+    },
+    "footer": "© 2025 Basque XIII — Eskubide guziak erreserbatuak",
+    "button": {
+        "contact": "Kontaktua",
+        "envoyer": "Igorri"
+    },
+    "chargement": "Chargement...",
+
+    "equipes": {
+        "senior": "Seniorrak taldea – 2025-2026 Denboraldia",
+        "haut": "GOIAN :",
+        "bas": "BEHEAN :",
+        "absent": "EZ HOR :"
+    },
+    "resume": {
+        "titre": "Partidaren laburpena",
+        "mt": "Atsedenaldia",
+        "essai": "entsegua",
+        "essais": "entsegua",
+        "transfo": "transformazioa",
+        "transfos": "transformazioa"
+    }
+}
