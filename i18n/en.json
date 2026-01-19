@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Saturday, January 17",
-        "lieu": "Stade Aguilera – Terrain du Bendern",
+        "date": "Saturday, February 07",
+        "lieu": "Stade Girouette – Anglet",
         "msg": "Refreshment stand, all welcome !"
     },
     "hero": {
@@ -42,13 +42,13 @@
             "titre": "Last match",
             "victoire": "Victory",
             "defaite": "Defeat",
-            "dateLieu": "Saturday, November 29 — Stade Girouette, Anglet",
+            "dateLieu": "Saturday, January 17 — Stade Aguilera, Biarritz",
             "resume": "Match summary →"
         },
         "prochainsMatchs": {
             "titre": "Next matches",
-            "dateLieu1": "January 17 — Biarritz - Stade Aguilera - Terrain du Bendern",
-            "dateLieu2": "January 31 — Away"
+            "dateLieu1": "January 31 — Away",
+            "dateLieu2": "February 07 — Anglet - Stade Girouette"
         },
         "reseaux": {
             "titre": "Follow us",
@@ -132,10 +132,13 @@
     },
     "resume": {
         "titre": "Match summary",
+        "lieu": "Stade du Bendern, Aguilera, Biarritz, 250 people",
         "mt": "Half-time",
         "essai": "try",
         "essais": "tries",
         "transfo": "conversion",
-        "transfos": "conversions"
+        "transfos": "conversions",
+        "penalite": "penalty goal",
+        "penalites": "penalty goals"
     }
 }

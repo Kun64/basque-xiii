@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Samedi 17 janvier",
-        "lieu": "Stade Aguilera – Terrain du Bendern",
+        "date": "Samedi 07 février",
+        "lieu": "Stade Girouette – Anglet",
         "msg": "Buvette et sandwichs, venez nombreux !"
     },
     "hero": {
@@ -42,13 +42,13 @@
             "titre": "Dernier match",
             "victoire": "Victoire",
             "defaite": "Défaite",
-            "dateLieu": "Samedi 29 Novembre — Stade Girouette, Anglet",
+            "dateLieu": "Samedi 17 Janvier — Stade Aguilera, Biarritz",
             "resume": "Voir le résumé du match →"
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "17 Janvier — Biarritz - Stade Aguilera - Terrain du Bendern",
-            "dateLieu2": "31 Janvier — Extérieur"
+            "dateLieu1": "31 Janvier — Extérieur",
+            "dateLieu2": "07 Février — Anglet - Stade Girouette"
         },
         "reseaux": {
             "titre": "Suivez-nous",
@@ -132,10 +132,13 @@
     },
     "resume": {
         "titre": "Résumé du match",
+        "lieu": "Stade du Bendern, Aguilera, Biarritz, 250 personnes",
         "mt": "Mi-temps",
         "essai": "essai",
         "essais": "essais",
         "transfo": "transformation",
-        "transfos": "transformations"
+        "transfos": "transformations",
+        "penalite": "pénalité",
+        "penalites": "pénalités"
     }
 }

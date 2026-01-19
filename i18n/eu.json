@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Urtarrilak 17",
-        "lieu": "Stade Aguilera – Terrain du Bendern",
+        "date": "Otsailak 07",
+        "lieu": "Stade Girouette – Angelu",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !"
     },
     "hero": {
@@ -42,13 +42,13 @@
             "titre": "Azken partida",
             "victoire": "Garaipena",
             "defaite": "Garaitu",
-            "dateLieu": "Azaroak 29a, larunbata — Stade Girouette, Anglet",
+            "dateLieu": "Urtarrilak 17a, larunbata — Stade Aguilera, Miarritze",
             "resume": "Partidaren laburpena →"
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Urtarrilak 17 — Miarritze - Stade Aguilera - Terrain du Bendern",
-            "dateLieu2": "Urtarrilak 31 — Kanpoan"
+            "dateLieu1": "Urtarrilak 31 — Kanpoan",
+            "dateLieu2": "Otsailak 07 — Angelu - Stade Girouette"
         },
         "reseaux": {
             "titre": "Segi gaitzazue",
@@ -132,10 +132,13 @@
     },
     "resume": {
         "titre": "Partidaren laburpena",
+        "lieu": "Stade du Bendern, Aguilera, Miarritze, 250 pertsona",
         "mt": "Atsedenaldia",
         "essai": "entsegua",
         "essais": "entsegua",
         "transfo": "transformazioa",
-        "transfos": "transformazioa"
+        "transfos": "transformazioa",
+        "penalite": "zigor kolpea",
+        "penalites": "zigor kolpea"
     }
 }
