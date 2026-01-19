@@ -122,3 +122,26 @@ document.addEventListener("DOMContentLoaded", () => {
     if (e.target === modal) closeModal();
   });
 });
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".zoom-affiche");
+  const modal = document.getElementById("affiche-modal");
+  const modalImg = document.getElementById("affiche-modal-img");
+
+  // Ouvrir
+  if (btn) {
+    modalImg.src = btn.dataset.img;
+    modal.classList.remove("hidden");
+    modal.classList.add("flex");
+    return;
+  }
+
+  // Fermer si clic sur le fond (PAS sur l'image)
+  if (modal && !modal.classList.contains("hidden")) {
+    if (e.target === modal) {
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+      modalImg.src = "";
+    }
+  }
+});
