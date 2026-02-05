@@ -16,7 +16,8 @@
     "match": {
         "date": "Otsailak 07",
         "lieu": "Stade Girouette – Angelu",
-        "msg": " Jatekoa eta edatekoa, zatozte numbrean !"
+        "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
+        "warn": "PARTIDA EZEZTATUA !"
     },
     "hero": {
         "titre": "Basque XIII — Harrotasuna eta grina",
@@ -47,8 +48,8 @@
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Urtarrilak 31 — Kanpoan",
-            "dateLieu2": "Otsailak 07 — Angelu - Stade Girouette"
+            "dateLieu1": "Otsailak 14 — Kanpoan",
+            "dateLieu2": "Otsailak 21 — Kanpoan"
         },
         "reseaux": {
             "titre": "Segi gaitzazue",
@@ -87,15 +88,16 @@
         "aller": "Lehen fasea",
         "retour": "Bigarren fasea",
         "resume": "→ Laburpena",
+        "forfait": "Opor egin bidezko garaipena",
         "matchs": {
             "date1": "Urriak 18",
             "date2": "Azaroak 01",
             "date3": "Azaroak 15",
             "date4": "Azaroak 29",
             "date5": "Urtarrilak 17",
-            "date6": "Urtarrilak 31",
-            "date7": "Otsailak 07-08",
-            "date8": "Otsailak 21-22",
+            "date6": "Otsailak 14",
+            "date7": "Otsailak 07",
+            "date8": "Otsailak 21",
             "date9": "Otsailak 28 Martxoak 01",
             "date10": "Martxoak 14-15",
             "date11": "Apirilak 04-05",

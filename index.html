@@ -102,9 +102,10 @@
         <span data-i18n="match.date"></span> &nbsp;›&nbsp;
         <span class="text-red-500">BASQUE XIII</span> – NANTES
       </p>
-      <p class="text-xs sm:text-sm text-green-100" data-i18n="match.lieu"></p>
+      <!-- <p class="text-xs sm:text-sm text-green-100" data-i18n="match.lieu"></p> -->
       <p class="text-sm sm:text-base font-bold text-white">
-        <span data-i18n="match.msg"></span> <span class="text-red-500">GORA</span>
+        <!-- <span data-i18n="match.msg"></span> <span class="text-red-500">GORA</span> -->
+        <span data-i18n="match.warn"></span>
       </p>
     </div>
   </section>
@@ -192,8 +193,10 @@
               <p class="text-sm text-gray-500" data-i18n="hero.prochainsMatchs.titre"></p>
               <p class="font-bold mt-1">Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
-              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Nantes</p>
+              <p class="font-bold mt-1">Valdériès vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu2"></p>
+              <!-- <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Nantes</p>
+              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu2"></p> -->
             </div>
           </div>
         </div>
@@ -328,6 +331,7 @@
         <ul class="space-y-2 text-base text-gray-700">
           <li>
             <span class="font-semibold" data-i18n="calendrier.matchs.date7"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Nantes
+            <span class="ml-2 font-semibold text-green-700" data-i18n="calendrier.forfait"></span>
           </li>
           <li>
             <span class="font-semibold" data-i18n="calendrier.matchs.date8"></span> — Valdériès vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
@@ -380,77 +384,121 @@
   <!-- Bandeau Partenaires -->
   <section class="border-t-4 border-b-4 border-red-700 border-b-green-700 bg-white/80 py-6">
     <div class="max-w-6xl mx-auto px-6 text-center">
-      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-[1fr_1fr_1.5fr_1fr_1fr] gap-x-6 gap-y-8 items-center justify-items-center">
-        <!-- Row 1, Col 1 -->
+      <!-- PARTENAIRES MAJEURS -->
+      <div class="mb-10">
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 items-center justify-items-center">
+          <a href="https://crea-renov-resine.fr/" target="_blank">
+            <div class="w-32 h-32 flex items-center justify-center
+                        bg-white rounded-xl shadow-sm p-3">
+              <img src="images/partenaires/creaRenov.png" alt="Crea Renov" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://www.basque-bondissant.com/" target="_blank">
+            <div class="w-45 h-25 flex items-center justify-center
+                        bg-white rounded-xl shadow-sm p-3">
+              <img src="images/partenaires/basqueBondissant.jpg" alt="Basque bondissant" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://stellamarisanglet.fr/" target="_blank">
+            <div class="w-32 h-32 flex items-center justify-center
+                        bg-white rounded-xl shadow-sm p-3">
+              <img src="images/partenaires/stellaMaris.jpg" alt="Stella Maris" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://www.couteau-talaia.com/" target="_blank">
+            <div class="w-32 h-32 flex items-center justify-center
+                        bg-white rounded-xl shadow-sm p-3">
+              <img src="images/partenaires/talaia.png" alt="Talaia" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://cuirdavant-sellier.fr/" target="_blank">
+            <div class="w-45 h-25 flex items-center justify-center
+                        bg-white rounded-xl shadow-sm p-3">
+              <img src="images/partenaires/atelierDavant.jpg" alt="Atelier Davant" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://glxevenementiel.com/" target="_blank">
+            <div class="w-32 h-32 flex items-center justify-center
+                        bg-white rounded-xl shadow-sm p-3">
+              <img src="images/partenaires/glx.jpg" alt="GLX" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <!-- PARTENAIRES SECONDAIRES 1 -->
+      <div class="grid grid-cols-3 sm:grid-cols-6 gap-6 items-center justify-items-center mb-6">
         <a href="https://www.instagram.com/aperockcafe/?hl=fr" target="_blank">
-          <div class="w-32 h-25 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/aperockCafe.png" alt="Partenaire LV1" class="max-w-full max-h-full object-contain">
+          <div class="w-28 h-32 flex items-center justify-center
+                      bg-white rounded-lg shadow-sm p-2">
+            <img src="images/partenaires/aperockCafe.png" alt="Apérock" class="max-w-full max-h-full object-contain">
           </div>
         </a>
-
-        <!-- Row 1, Col 2 -->
         <a href="https://www.instagram.com/barbasquebayonne/?hl=fr" target="_blank">
-          <div class="w-32 h-32 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/barBasqueT.png" alt="Partenaire LC1" class="max-w-full max-h-full object-contain">
+          <div class="w-28 h-28 flex items-center justify-center
+                      bg-white rounded-lg shadow-sm p-2">
+            <img src="images/partenaires/barBasqueT.png" alt="Bar Basque" class="max-w-full max-h-full object-contain">
           </div>
         </a>
-
-        <!-- Row 1, Col 3 -->
-        <a href="https://cuirdavant-sellier.fr/" target="_blank">
-          <div class="w-45 h-25 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/atelierDavant.jpg" alt="Partenaire LH1" class="max-w-full max-h-full object-contain">
-          </div>
-        </a>
-
-        <!-- Row 1, Col 4 -->
         <a href="https://sites.google.com/view/dlicesdesviandes/accueil" target="_blank">
-          <div class="w-32 h-32 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/delicesDesViandes.png" alt="Partenaire LC2" class="max-w-full max-h-full object-contain">
+          <div class="w-28 h-28 flex items-center justify-center
+                      bg-white rounded-lg shadow-sm p-2">
+            <img src="images/partenaires/delicesDesViandes.png" alt="Déciles Viandes" class="max-w-full max-h-full object-contain">
           </div>
         </a>
-
-        <!-- Row 1, Col 5 -->
         <a href="https://www.euskola.eus/" target="_blank">
-          <div class="w-32 h-32 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/euskola.jpg" alt="Partenaire LC3" class="max-w-full max-h-full object-contain">
+          <div class="w-28 h-28 flex items-center justify-center
+                      bg-white rounded-lg shadow-sm p-2">
+            <img src="images/partenaires/euskola.jpg" alt="Euskola" class="max-w-full max-h-full object-contain">
           </div>
         </a>
-
-        <!-- Row 2, Col 1 -->
-        <a href="https://glxevenementiel.com/" target="_blank">
-          <div class="w-32 h-32 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/glx.jpg" alt="Partenaire LC4" class="max-w-full max-h-full object-contain">
-          </div>
-        </a>
-
-        <!-- Row 2, Col 2 -->
-        <a href="https://www.couteau-talaia.com/" target="_blank">
-          <div class="w-32 h-32 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/talaia.png" alt="Partenaire LC5" class="max-w-full max-h-full object-contain">
-          </div>
-        </a>
-
-        <!-- Row 2, Col 3 -->
-        <a href="https://www.basque-bondissant.com/" target="_blank">
-          <div class="w-45 h-25 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/basqueBondissant.jpg" alt="Partenaire LH2" class="max-w-full max-h-full object-contain">
-          </div>
-        </a>
-
-        <!-- Row 2, Col 4 -->
         <a href="https://www.instagram.com/ange.anglet/" target="_blank">
-          <div class="w-32 h-32 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/ange.png" alt="Partenaire LC6" class="max-w-full max-h-full object-contain">
+          <div class="w-28 h-28 flex items-center justify-center
+                      bg-white rounded-lg shadow-sm p-2">
+            <img src="images/partenaires/ange.png" alt="Ange" class="max-w-full max-h-full object-contain">
           </div>
         </a>
-
-        <!-- Row 2, Col 5 -->
-        <a href="https://stellamarisanglet.fr/" target="_blank">
-          <div class="w-32 h-32 flex items-center justify-center bg-white rounded-lg shadow-sm p-2">
-            <img src="images/partenaires/stellaMaris.jpg" alt="Partenaire LC7" class="max-w-full max-h-full object-contain">
+        <a href="https://www.creditmutuel.fr/fr/particuliers.html" target="_blank">
+          <div class="w-28 h-28 flex items-center justify-center
+                      bg-white rounded-lg shadow-sm p-2">
+            <img src="images/partenaires/creditMutuel.jpg" alt="Crédit Mutuel" class="max-w-full max-h-full object-contain">
           </div>
         </a>
-
+      </div>
+      <!-- PARTENAIRES SECONDAIRES 2 -->
+      <div class="flex justify-center">
+        <div class="grid grid-cols-3 sm:grid-cols-5 gap-6 items-center justify-items-center">
+          <a href="https://www.instagram.com/bouillon_francais_anglet/?hl=fr" target="_blank">
+            <div class="w-28 h-28 flex items-center justify-center
+                        bg-white rounded-lg shadow-sm p-2">
+              <img src="images/partenaires/bouillonFrançais.jpg" alt="Bouillon FR" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://www.pizzeria-villaroma.com/" target="_blank">
+            <div class="w-38 h-20 flex items-center justify-center
+                        bg-white rounded-lg shadow-sm p-2">
+              <img src="images/partenaires/villaRoma.png" alt="Villa Roma" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://www.my-tds.fr/" target="_blank">
+            <div class="w-28 h-28 flex items-center justify-center
+                        bg-white rounded-lg shadow-sm p-2">
+              <img src="images/partenaires/tds.png" alt="TDS" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="https://www.autoselection64.com/" target="_blank">
+            <div class="w-38 h-20 flex items-center justify-center
+                        bg-black rounded-lg shadow-sm p-2">
+              <img src="images/partenaires/ausoSelection64.png" alt="Auto Sélection 64" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+          <a href="#" target="_blank">
+            <div class="w-28 h-28 flex items-center justify-center
+                        bg-white text-gray-100 rounded-lg shadow-sm p-2">
+              <img src="images/partenaires/argitik.jpg" alt="Crédit Mutuel" class="max-w-full max-h-full object-contain">
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   </section>

@@ -16,7 +16,8 @@
     "match": {
         "date": "Samedi 07 février",
         "lieu": "Stade Girouette – Anglet",
-        "msg": "Buvette et sandwichs, venez nombreux !"
+        "msg": "Buvette et sandwichs, venez nombreux !",
+        "warn": "ATTENTION MATCH ANNULÉ !"
     },
     "hero": {
         "titre": "Basque XIII — Fierté et combativité",
@@ -47,8 +48,8 @@
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "31 Janvier — Extérieur",
-            "dateLieu2": "07 Février — Anglet - Stade Girouette"
+            "dateLieu1": "14 Février — Extérieur",
+            "dateLieu2": "21 Février — Extérieur"
         },
         "reseaux": {
             "titre": "Suivez-nous",
@@ -87,15 +88,16 @@
         "aller": "Aller",
         "retour": "Retour",
         "resume": "→ Résumé",
+        "forfait": "Victoire par forfait",
         "matchs": {
             "date1": "18 Octobre",
             "date2": "1er Novembre",
             "date3": "15 Novembre",
             "date4": "29 Novembre",
             "date5": "17 Janvier",
-            "date6": "31 Janvier",
-            "date7": "07-08 Février",
-            "date8": "21-22 Février",
+            "date6": "14 Février",
+            "date7": "07 Février",
+            "date8": "21 Février",
             "date9": "28 Février - 01 Mars",
             "date10": "14-15 Mars",
             "date11": "04-05 Avril",
