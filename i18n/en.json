@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Saturday, February 07",
-        "lieu": "Stade Girouette – Anglet",
+        "date": "Sunday, March 29",
+        "lieu": "Stade Aguilera – Biarritz",
         "msg": "Refreshment stand, all welcome !",
         "warn": "MATCH CANCELED !"
     },
@@ -48,7 +48,7 @@
         },
         "prochainsMatchs": {
             "titre": "Next matches",
-            "dateLieu1": "February 14 — Away",
+            "dateLieu1": "March 07 — Away",
             "dateLieu2": "February 21 — Away"
         },
         "reseaux": {
@@ -95,7 +95,7 @@
             "date3": "November 15",
             "date4": "November 29",
             "date5": "January 17",
-            "date6": "February 14",
+            "date6": "March 07",
             "date7": "February 07",
             "date8": "February 21",
             "date9": "March 14",

@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Samedi 07 février",
-        "lieu": "Stade Girouette – Anglet",
+        "date": "Dimanche 29 mars",
+        "lieu": "Stade Aguilera – Biarritz",
         "msg": "Buvette et sandwichs, venez nombreux !",
         "warn": "ATTENTION MATCH ANNULÉ !"
     },
@@ -48,7 +48,7 @@
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "14 Février — Extérieur",
+            "dateLieu1": "07 Mars — Extérieur",
             "dateLieu2": "21 Février — Extérieur"
         },
         "reseaux": {
@@ -95,7 +95,7 @@
             "date3": "15 Novembre",
             "date4": "29 Novembre",
             "date5": "17 Janvier",
-            "date6": "14 Février",
+            "date6": "07 Mars",
             "date7": "07 Février",
             "date8": "21 Février",
             "date9": "14 Mars",

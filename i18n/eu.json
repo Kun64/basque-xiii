@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Otsailak 07",
-        "lieu": "Stade Girouette – Angelu",
+        "date": "Martxoak 29",
+        "lieu": "Stade Aguilera – Miarritze",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
         "warn": "PARTIDA EZEZTATUA !"
     },
@@ -48,7 +48,7 @@
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Otsailak 14 — Kanpoan",
+            "dateLieu1": "Martxoak 07 — Kanpoan",
             "dateLieu2": "Otsailak 21 — Kanpoan"
         },
         "reseaux": {
@@ -95,7 +95,7 @@
             "date3": "Azaroak 15",
             "date4": "Azaroak 29",
             "date5": "Urtarrilak 17",
-            "date6": "Otsailak 14",
+            "date6": "Martxoak 07",
             "date7": "Otsailak 07",
             "date8": "Otsailak 21",
             "date9": "Martxoak 14",
