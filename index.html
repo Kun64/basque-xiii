@@ -11,7 +11,7 @@
 <body class="bg-gray-50 text-gray-800">
 
   <div class ="border-t-4 border-b-4 border-red-700 border-b-green-700">
-    <div class="max-w-6xl mx-auto px-4 py-6">
+    <div class="max-w-6xl mx-auto px-4 py-2">
 
       <!-- NAV -->
       <nav class="flex items-center justify-between py-4">
@@ -95,8 +95,33 @@
     </div>
   </div>
 
-  <!-- Bandeau match -->
   <section class="bg-green-700 text-white border-b-4 border-red-700">
+    <div class="max-w-6xl mx-auto px-4 py-8">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
+        <div class="flex-shrink-0">
+          <button id="open-affiche"
+                  class="bg-white rounded-xl shadow-lg p-2 hover:scale-105 transition-transform">
+            <img
+              src="images/affiches/compoJulesJulien.jpeg"
+              alt="Compo Jules Julien"
+              class="w-36 sm:w-40 md:w-44 rounded-lg object-contain">
+          </button>
+        </div>
+        <div class="text-center space-y-3">
+          <p class="text-base sm:text-lg font-semibold tracking-wide">
+            <span data-i18n="match.date2"></span> &nbsp;›&nbsp;
+            Toulouse Jules Julien – <span class="text-red-500">BASQUE XIII</span>
+          </p>
+          <p class="text-sm sm:text-base text-green-100" data-i18n="match.lieu2"></p>
+          <p class="text-base sm:text-lg font-bold">
+            <span class="text-red-500">GORA</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bandeau match -->
+  <!--<section class="bg-green-700 text-white border-b-4 border-red-700">
     <div class="max-w-6xl mx-auto px-4 py-3 text-center space-y-1">
       <p class="text-sm sm:text-base font-semibold tracking-wide">
         <span data-i18n="match.date"></span> &nbsp;›&nbsp;
@@ -105,10 +130,9 @@
       <p class="text-xs sm:text-sm text-green-100" data-i18n="match.lieu"></p>
       <p class="text-sm sm:text-base font-bold text-white">
         <span data-i18n="match.msg"></span> <span class="text-red-500">GORA</span>
-        <!--<span data-i18n="match.warn"></span>-->
       </p>
     </div>
-  </section>
+  </section>-->
 <!--   <section class="bg-green-700 text-white">
     <div class="max-w-6xl mx-auto px-4 py-8">
       <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
@@ -546,7 +570,7 @@
     <!-- Image -->
     <img
       id="affiche-modal-img"
-      src=""
+      src="images/affiches/compoJulesJulien.jpeg"
       alt="Affiche"
       class="w-auto max-h-[90vh] object-contain rounded-2xl shadow-2xl">
   </div>

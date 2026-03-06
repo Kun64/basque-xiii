@@ -17,7 +17,9 @@
         "date": "Sunday, March 29",
         "lieu": "Stade Aguilera – Biarritz",
         "msg": "Refreshment stand, all welcome !",
-        "warn": "MATCH CANCELED !"
+        "warn": "MATCH CANCELED !",
+        "date2": "Sunday, March 8",
+        "lieu2": "Stade Struxiano – Toulouse"
     },
     "hero": {
         "titre": "Basque XIII — Pride and fithing spirit",
