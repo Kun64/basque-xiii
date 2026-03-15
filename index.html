@@ -96,7 +96,7 @@
   </div>
 
   <!-- Bandeau match -->
-  <section class="bg-green-700 text-white border-b-4 border-red-700">
+  <!--<section class="bg-green-700 text-white border-b-4 border-red-700">
     <div class="max-w-6xl mx-auto px-4 py-3 text-center space-y-1">
       <p class="text-sm sm:text-base font-semibold tracking-wide">
         <span data-i18n="match.date"></span> &nbsp;›&nbsp;
@@ -107,15 +107,15 @@
         <span data-i18n="match.msg"></span> <span class="text-red-500">GORA</span>
       </p>
     </div>
-  </section>
-<!--   <section class="bg-green-700 text-white">
+  </section>-->
+  <section class="bg-green-700 text-white">
     <div class="max-w-6xl mx-auto px-4 py-8">
       <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
         <div class="flex-shrink-0">
           <button id="open-affiche"
                   class="bg-white rounded-xl shadow-lg p-2 hover:scale-105 transition-transform">
             <img
-              src="images/afficheXIIIGascon.jpeg"
+              src="images/affiches/repas29mars.jpeg"
               alt="Affiche Basque XIII vs XIII Gascon"
               class="w-32 sm:w-36 md:w-40 rounded-lg object-contain">
           </button>
@@ -123,7 +123,7 @@
         <div class="text-center space-y-3">
           <p class="text-base sm:text-lg font-semibold tracking-wide">
             <span data-i18n="match.date"></span> &nbsp;›&nbsp;
-            <span class="text-red-500">BASQUE XIII</span> – XIII GASCON
+        <span class="text-red-500">BASQUE XIII</span> – PAMIERS 2
           </p>
           <p class="text-sm sm:text-base text-green-100" data-i18n="match.lieu"></p>
           <p class="text-base sm:text-lg font-bold">
@@ -132,7 +132,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <!-- HERO FULL WIDTH -->
   <section class="relative bg-cover bg-center bg-no-repeat text-white"
@@ -176,24 +176,24 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500" data-i18n="hero.dernierMatch.titre"></p>
-              <p class="font-bold mt-1">Toulouse Jules Julien <span class="text-red-700">30 - 18</span> <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
+              <p class="font-bold mt-1">Ecole du XIII Saint Pierrais <span class="text-red-700">28 - 24</span> <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.dernierMatch.dateLieu"></p>
             </div>
              <span class="bg-red-700 text-white text-xs font-bold px-3 py-1 rounded-lg" data-i18n="hero.dernierMatch.defaite"></span>
           </div>
-          <!--<div class="border-t pt-3 text-sm text-gray-700">
-            <button class="font-semibold hover:text-green-700" data-resume="resumes/gasconA.html" data-i18n="hero.dernierMatch.resume"></button>
-          </div>-->
+          <div class="border-t pt-3 text-sm text-gray-700">
+            <button class="font-semibold hover:text-green-700" data-resume="resumes/trivisyR.html" data-i18n="hero.dernierMatch.resume"></button>
+          </div>
         </div>
         <!-- Prochain match -->
         <div class="bg-white/70 rounded-xl p-5 shadow border border-gray-100 text-gray-800">
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500" data-i18n="hero.prochainsMatchs.titre"></p>
-              <p class="font-bold mt-1">Ecole du XIII St Pierrais vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
-              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
               <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Pamiers 2</p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu2"></p>
+              <p class="font-bold mt-1">XIII Gascon vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
+              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
             </div>
           </div>
         </div>
@@ -323,6 +323,7 @@
           <li>
             <span class="font-semibold" data-i18n="calendrier.matchs.date6"></span> — Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
             <span class="ml-2 font-semibold text-red-700">30 - 18</span>
+            <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/toulouseA.html" data-i18n="calendrier.resume"></button>
           </li>
         </ul>
         <p class="text-base text-gray-600 mb-4 mt-4" data-i18n="calendrier.retour"></p>
@@ -333,6 +334,8 @@
           </li>
           <li>
             <span class="font-semibold" data-i18n="calendrier.matchs.date9"></span> — Ecole du XIII Saint Pierrais vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span>
+            <span class="ml-2 font-semibold text-red-700">28 - 24</span>
+            <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/trivisyR.html" data-i18n="calendrier.resume"></button>
           </li>
           <li>
             <span class="font-semibold" data-i18n="calendrier.matchs.date10"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Pamiers 2
@@ -546,7 +549,7 @@
     <!-- Image -->
     <img
       id="affiche-modal-img"
-      src="images/affiches/compoJulesJulien.jpeg"
+      src="images/affiches/repas29mars.jpeg"
       alt="Affiche"
       class="w-auto max-h-[90vh] object-contain rounded-2xl shadow-2xl">
   </div>
