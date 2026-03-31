@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Martxoak 29",
-        "lieu": "Stade Aguilera – Miarritze",
+        "date": "Apirilak 11",
+        "lieu": "Stade Girouette – Angelu",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
         "warn": "PARTIDA EZEZTATUA !",
         "date2": "Martxoak 8",
@@ -45,13 +45,13 @@
             "titre": "Azken partida",
             "victoire": "Garaipena",
             "defaite": "Garaitu",
-            "dateLieu": "Martxoak 14 — Saint-Pierre de Trivisy",
+            "dateLieu": "Martxoak 29 — Stade Aguilera, Miarritze",
             "resume": "Partidaren laburpena →"
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
             "dateLieu1": "Apirilak 04 — Kanpoan",
-            "dateLieu2": "Martxoak 29 — Miarritze, Aguilera"
+            "dateLieu2": "Apirilak 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
             "titre": "Segi gaitzazue",

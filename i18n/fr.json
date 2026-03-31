@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Dimanche 29 mars",
-        "lieu": "Stade Aguilera – Biarritz",
+        "date": "Samedi 11 avril",
+        "lieu": "Stade Girouette – Anglet",
         "msg": "Buvette et sandwichs, venez nombreux !",
         "warn": "ATTENTION MATCH ANNULÉ !",
         "date2": "Dimanche 8 mars",
@@ -45,13 +45,13 @@
             "titre": "Dernier match",
             "victoire": "Victoire",
             "defaite": "Défaite",
-            "dateLieu": "Samedi 14 Mars — Saint-Pierre de Trivisy",
+            "dateLieu": "Dimanche 29 Mars — Stade Aguilera, Biarritz",
             "resume": "Voir le résumé du match →"
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
             "dateLieu1": "04 Avril — Extérieur",
-            "dateLieu2": "29 Mars — Biarritz, Aguilera"
+            "dateLieu2": "11 Avril — Stade Girouette, Anglet"
         },
         "reseaux": {
             "titre": "Suivez-nous",

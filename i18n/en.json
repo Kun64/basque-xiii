@@ -14,8 +14,8 @@
         }
     },
     "match": {
-        "date": "Sunday, March 29",
-        "lieu": "Stade Aguilera – Biarritz",
+        "date": "Saturday, April 11",
+        "lieu": "Stade Girouette - Anglet",
         "msg": "Refreshment stand, all welcome !",
         "warn": "MATCH CANCELED !",
         "date2": "Sunday, March 8",
@@ -45,13 +45,13 @@
             "titre": "Last match",
             "victoire": "Victory",
             "defaite": "Defeat",
-            "dateLieu": "March 14 — Saint-Pierre de Trivisy",
+            "dateLieu": "March 29 — Stade Aguilera, Biarritz",
             "resume": "Match summary →"
         },
         "prochainsMatchs": {
             "titre": "Next matches",
             "dateLieu1": "April 04 — Away",
-            "dateLieu2": "March 29 — Biarritz, Aguilera"
+            "dateLieu2": "April 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
             "titre": "Follow us",
