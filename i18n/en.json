@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Saturday, April 11",
+        "date": "Sunday, April 26",
         "lieu": "Stade Girouette - Anglet",
         "msg": "Refreshment stand, all welcome !",
-        "warn": "MATCH CANCELED !",
+        "warn": "NATIONAL 3 QUARTER-FINALS",
         "date2": "Sunday, March 8",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -27,8 +27,8 @@
         "calendrier": "See fixtures",
         "entrainements": {
             "titre": "Training sessions",
-            "texte1": "Every wednesday — 6:30pm - 8:30pm",
-            "texte2": "Every saturday — 10:30am - 12:30pm",
+            "texte1": "Every wednesday — 7:00pm - 9:00pm",
+            "texte2": "Every friday — 7:00pm - 9:00pm",
             "texte3": "Avenue Abbé Cestac, 64600 ANGLET"
         },
         "recrutement": {
@@ -45,12 +45,12 @@
             "titre": "Last match",
             "victoire": "Victory",
             "defaite": "Defeat",
-            "dateLieu": "April 11 — Stade Girouette, Anglet",
+            "dateLieu": "April 19 — Away",
             "resume": "Match summary →"
         },
         "prochainsMatchs": {
             "titre": "Next matches",
-            "dateLieu1": "April 18 — Away",
+            "dateLieu1": "April 26 — Anglet",
             "dateLieu2": "April 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -144,6 +144,7 @@
         "transfos": "conversions",
         "penalite": "penalty goal",
         "penalites": "penalty goals",
+        "drop": "drop goal",
         "affiche": "Poster : Jérôme Pradet",
         "affiches": "Posters : Jérôme Pradet"
     }

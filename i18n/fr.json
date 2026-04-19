@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Samedi 11 avril",
+        "date": "Dimanche 26 avril",
         "lieu": "Stade Girouette – Anglet",
         "msg": "Buvette et sandwichs, venez nombreux !",
-        "warn": "ATTENTION MATCH ANNULÉ !",
+        "warn": "QUARTS DE FINALE NATIONALE 3",
         "date2": "Dimanche 8 mars",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -28,7 +28,7 @@
         "entrainements": {
             "titre": "Entraînements",
             "texte1": "Tous les mercredis — 19h00 - 21h00",
-            "texte2": "Tous les samedis — 10h00 - 12h00",
+            "texte2": "Tous les vendredis — 19h00 - 21h00",
             "texte3": "Avenue Abbé Cestac, 64600 ANGLET"
         },
         "recrutement": {
@@ -45,12 +45,12 @@
             "titre": "Dernier match",
             "victoire": "Victoire",
             "defaite": "Défaite",
-            "dateLieu": "Samedi 11 Avril — Stade Girouette, Anglet",
+            "dateLieu": "Dimanche 19 Avril — Extérieur",
             "resume": "Voir le résumé du match →"
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "18 Avril — Extérieur",
+            "dateLieu1": "26 Avril — Anglet",
             "dateLieu2": "11 Avril — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -144,6 +144,7 @@
         "transfos": "transformations",
         "penalite": "pénalité",
         "penalites": "pénalités",
+        "drop": "drop",
         "affiche": "Affiche : Jérôme Pradet",
         "affiches": "Affiches : Jérôme Pradet"
     }

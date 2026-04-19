@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Apirilak 11",
+        "date": "Apirilak 26",
         "lieu": "Stade Girouette – Angelu",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
-        "warn": "PARTIDA EZEZTATUA !",
+        "warn": "FINAL-LAURDENAK",
         "date2": "Martxoak 8",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -27,8 +27,8 @@
         "calendrier": "Ikus egutegia",
         "entrainements": {
             "titre": "Entrenamenduak",
-            "texte1": "Asteazken guziz — 18:30 - 20:30",
-            "texte2": "Larunbat guziz — 10:30 - 12:30",
+            "texte1": "Asteazken guziz — 19:00 - 21:00",
+            "texte2": "Ostiral guziz — 19:00 - 21:00",
             "texte3": "Avenue Abbé Cestac, 64600 ANGLET"
         },
         "recrutement": {
@@ -45,12 +45,12 @@
             "titre": "Azken partida",
             "victoire": "Garaipena",
             "defaite": "Garaitu",
-            "dateLieu": "Apirilak 11 — Stade Girouette, Angelu",
+            "dateLieu": "Apirilak 19 — Kanpoan",
             "resume": "Partidaren laburpena →"
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Apirilak 18 — Kanpoan",
+            "dateLieu1": "Apirilak 26 — Angelu",
             "dateLieu2": "Apirilak 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -144,6 +144,7 @@
         "transfos": "transformazioa",
         "penalite": "zigor kolpea",
         "penalites": "zigor kolpea",
+        "drop": "dropa",
         "affiche": "Kartela : Jérôme Pradet",
         "affiches": "Kartelak : Jérôme Pradet"
     }
