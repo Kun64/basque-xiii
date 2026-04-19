@@ -15,7 +15,7 @@
     },
     "match": {
         "date": "Apirilak 26",
-        "lieu": "Stade Girouette – Angelu",
+        "lieu": "Stade du Bendern, Aguilera – Miarritze",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
         "warn": "FINAL-LAURDENAK",
         "date2": "Martxoak 8",
@@ -50,7 +50,7 @@
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Apirilak 26 — Angelu",
+            "dateLieu1": "Apirilak 26 — Stade du Bendern, Aguilera, Miarritze",
             "dateLieu2": "Apirilak 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -60,9 +60,13 @@
     },
     "news": {
         "titre": "Berriak",
+        "news": {
+            "titre": "Paul Grand : « Se faire connaître dans le Pays Basque »",
+            "texte": "Formé du côté de Villeneuve-sur-Lot, le talonneur ou demi d’ouverture Paul Grand a répondu à nos questions après son premier match sous les couleurs du XIII Basque."
+        },
         "news1": {
-            "titre": "Les bons débuts de Basque XIII",
-            "texte": "Sorti de terre cette année, Basque XIII évolue en Nationale 3 Poule Ouest. Olivier Dumeaux, son président-entraîneur et membre fondateur au parloir."
+            "date": "2025eko azaroak 5 - Treize Mondial",
+            "texte": "Les bons débuts de Basque XIII"
         },
         "news2": {
             "date": "2025eko urriak 19 - Treize Mondial",

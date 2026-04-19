@@ -15,7 +15,7 @@
     },
     "match": {
         "date": "Dimanche 26 avril",
-        "lieu": "Stade Girouette – Anglet",
+        "lieu": "Stade du Bendern, Aguilera – Biarritz",
         "msg": "Buvette et sandwichs, venez nombreux !",
         "warn": "QUARTS DE FINALE NATIONALE 3",
         "date2": "Dimanche 8 mars",
@@ -50,7 +50,7 @@
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "26 Avril — Anglet",
+            "dateLieu1": "26 Avril — Stade du Bendern, Aguilera, Biarritz",
             "dateLieu2": "11 Avril — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -60,9 +60,13 @@
     },
     "news": {
         "titre": "Actualités",
+        "news": {
+            "titre": "Paul Grand : « Se faire connaître dans le Pays Basque »",
+            "texte": "Formé du côté de Villeneuve-sur-Lot, le talonneur ou demi d’ouverture Paul Grand a répondu à nos questions après son premier match sous les couleurs du XIII Basque."
+        },
         "news1": {
-            "titre": "Les bons débuts de Basque XIII",
-            "texte": "Sorti de terre cette année, Basque XIII évolue en Nationale 3 Poule Ouest. Olivier Dumeaux, son président-entraîneur et membre fondateur au parloir."
+            "date": "05 Novembre 2025 - Treize Mondial",
+            "texte": "Les bons débuts de Basque XIII"
         },
         "news2": {
             "date": "19 Octobre 2025 - Treize Mondial",
