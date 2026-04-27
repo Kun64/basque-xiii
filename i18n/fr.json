@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Dimanche 26 avril",
-        "lieu": "Stade du Bendern, Aguilera – Biarritz",
+        "date": "Dimanche 10 mai",
+        "lieu": "Toulon",
         "msg": "Buvette et sandwichs, venez nombreux !",
-        "warn": "QUARTS DE FINALE NATIONALE 3",
+        "warn": "DEMI FINALE NATIONALE 3",
         "date2": "Dimanche 8 mars",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -45,12 +45,12 @@
             "titre": "Dernier match",
             "victoire": "Victoire",
             "defaite": "Défaite",
-            "dateLieu": "Dimanche 19 Avril — Extérieur",
+            "dateLieu": "Dimanche 26 Avril — Stade du Bendern, Aguilera, Biarritz",
             "resume": "Voir le résumé du match →"
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "26 Avril — Stade du Bendern, Aguilera, Biarritz",
+            "dateLieu1": "10 Mai — Extérieur",
             "dateLieu2": "11 Avril — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -61,8 +61,8 @@
     "news": {
         "titre": "Actualités",
         "news": {
-            "titre": "Paul Grand : « Se faire connaître dans le Pays Basque »",
-            "texte": "Formé du côté de Villeneuve-sur-Lot, le talonneur ou demi d’ouverture Paul Grand a répondu à nos questions après son premier match sous les couleurs du XIII Basque."
+            "titre": "Rugby à XIII (Nationale 3). Déjà qualifié pour les phases finales, Basque XIII est très à son aise dès ses débuts",
+            "texte": "À peine créé et déjà qualifié. Un an après sa fondation, Basque XIII, deuxième à l’issue de la phase régulière, s’est hissé jusqu’en quarts de finale de N3. Si le club labourdin, qui reçoit Caumont-sur-Durance ce dimanche, est parti depuis le plus bas niveau de la discipline, il peut toujours espérer grimper d’un étage dès sa première saison"
         },
         "news1": {
             "date": "05 Novembre 2025 - Treize Mondial",
@@ -93,6 +93,9 @@
         "titre": "Calendrier",
         "aller": "Aller",
         "retour": "Retour",
+        "quart": "Quart de finale",
+        "demi": "Demi finale",
+        "finale": "Finale",
         "resume": "→ Résumé",
         "forfait": "Victoire par forfait",
         "matchs": {
@@ -107,7 +110,9 @@
             "date9": "14 Mars",
             "date10": "29 Mars",
             "date11": "04 Avril",
-            "date12": "11-12 Avril"
+            "date12": "11-12 Avril",
+            "date13": "26 Avril",
+            "date14": "10 Mai"
         }
     },
     "infos": {

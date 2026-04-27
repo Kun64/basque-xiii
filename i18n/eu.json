@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Apirilak 26",
-        "lieu": "Stade du Bendern, Aguilera – Miarritze",
+        "date": "Maiatzak 10",
+        "lieu": "Toulon",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
-        "warn": "FINAL-LAURDENAK",
+        "warn": "FINALAURREKOA",
         "date2": "Martxoak 8",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -45,12 +45,12 @@
             "titre": "Azken partida",
             "victoire": "Garaipena",
             "defaite": "Garaitu",
-            "dateLieu": "Apirilak 19 — Kanpoan",
+            "dateLieu": "Apirilak 19 — Stade du Bendern, Aguilera, Miarritze",
             "resume": "Partidaren laburpena →"
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Apirilak 26 — Stade du Bendern, Aguilera, Miarritze",
+            "dateLieu1": "Maiatzak 10 — Kanpoan",
             "dateLieu2": "Apirilak 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -61,8 +61,8 @@
     "news": {
         "titre": "Berriak",
         "news": {
-            "titre": "Paul Grand : « Se faire connaître dans le Pays Basque »",
-            "texte": "Formé du côté de Villeneuve-sur-Lot, le talonneur ou demi d’ouverture Paul Grand a répondu à nos questions après son premier match sous les couleurs du XIII Basque."
+            "titre": "Rugby à XIII (Nationale 3). Déjà qualifié pour les phases finales, Basque XIII est très à son aise dès ses débuts",
+            "texte": "À peine créé et déjà qualifié. Un an après sa fondation, Basque XIII, deuxième à l’issue de la phase régulière, s’est hissé jusqu’en quarts de finale de N3. Si le club labourdin, qui reçoit Caumont-sur-Durance ce dimanche, est parti depuis le plus bas niveau de la discipline, il peut toujours espérer grimper d’un étage dès sa première saison"
         },
         "news1": {
             "date": "2025eko azaroak 5 - Treize Mondial",
@@ -93,6 +93,9 @@
         "titre": "Egutegia",
         "aller": "Lehen fasea",
         "retour": "Bigarren fasea",
+        "quart": "Final-laurdenak",
+        "demi": "Finalaurrekoa",
+        "finale": "Finala",
         "resume": "→ Laburpena",
         "forfait": "Opor egin bidezko garaipena",
         "matchs": {
@@ -107,7 +110,9 @@
             "date9": "Martxoak 14",
             "date10": "Martxoak 29",
             "date11": "Apirilak 04",
-            "date12": "Apirilak 11-12"
+            "date12": "Apirilak 11-12",
+            "date13": "Apirilak 26",
+            "date14": "Maiatzak 10"
         }
     },
     "infos": {
