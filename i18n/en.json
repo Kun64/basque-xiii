@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Sunday, May 10",
-        "lieu": "Toulon",
+        "date": "Sunday, May 24",
+        "lieu": "Saint-Gaudens",
         "msg": "Refreshment stand, all welcome !",
-        "warn": "NATIONAL 3 SEMI FINAL",
+        "warn": "NATIONAL 3 FINAL",
         "date2": "Sunday, March 8",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -45,12 +45,12 @@
             "titre": "Last match",
             "victoire": "Victory",
             "defaite": "Defeat",
-            "dateLieu": "April 26 — Stade du Bendern, Aguilera, Biarritz",
+            "dateLieu": "May 10 — Toulon",
             "resume": "Match summary →"
         },
         "prochainsMatchs": {
             "titre": "Next matches",
-            "dateLieu1": "May 10 — Away",
+            "dateLieu1": "May 24 — Saint-Gaudens",
             "dateLieu2": "April 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -112,7 +112,8 @@
             "date11": "April 04",
             "date12": "April 11-12",
             "date13": "April 26",
-            "date14": "May 10"
+            "date14": "May 10",
+            "date15": "May 24"
         }
     },
     "infos": {

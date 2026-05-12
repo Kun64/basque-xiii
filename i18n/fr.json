@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Dimanche 10 mai",
-        "lieu": "Toulon",
+        "date": "Dimanche 24 mai",
+        "lieu": "Saint-Gaudens",
         "msg": "Buvette et sandwichs, venez nombreux !",
-        "warn": "DEMI FINALE NATIONALE 3",
+        "warn": "FINALE NATIONALE 3",
         "date2": "Dimanche 8 mars",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -45,12 +45,12 @@
             "titre": "Dernier match",
             "victoire": "Victoire",
             "defaite": "Défaite",
-            "dateLieu": "Dimanche 26 Avril — Stade du Bendern, Aguilera, Biarritz",
+            "dateLieu": "Dimanche 10 Mai — Toulon",
             "resume": "Voir le résumé du match →"
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "10 Mai — Extérieur",
+            "dateLieu1": "24 Mai — Saint_Gaudens",
             "dateLieu2": "11 Avril — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -112,7 +112,8 @@
             "date11": "04 Avril",
             "date12": "11-12 Avril",
             "date13": "26 Avril",
-            "date14": "10 Mai"
+            "date14": "10 Mai",
+            "date15": "24 Mai"
         }
     },
     "infos": {

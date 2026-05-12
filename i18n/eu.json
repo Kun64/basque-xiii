@@ -14,10 +14,10 @@
         }
     },
     "match": {
-        "date": "Maiatzak 10",
-        "lieu": "Toulon",
+        "date": "Maiatzak 24",
+        "lieu": "Saint-Gaudens",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
-        "warn": "FINALAURREKOA",
+        "warn": "FINALA",
         "date2": "Martxoak 8",
         "lieu2": "Stade Struxiano – Toulouse"
     },
@@ -45,12 +45,12 @@
             "titre": "Azken partida",
             "victoire": "Garaipena",
             "defaite": "Garaitu",
-            "dateLieu": "Apirilak 19 — Stade du Bendern, Aguilera, Miarritze",
+            "dateLieu": "Maiatzak 10 — Toulon",
             "resume": "Partidaren laburpena →"
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Maiatzak 10 — Kanpoan",
+            "dateLieu1": "Maiatzak 24 — Saint-Gaudens",
             "dateLieu2": "Apirilak 11 — Stade Girouette, Anglet"
         },
         "reseaux": {
@@ -112,7 +112,8 @@
             "date11": "Apirilak 04",
             "date12": "Apirilak 11-12",
             "date13": "Apirilak 26",
-            "date14": "Maiatzak 10"
+            "date14": "Maiatzak 10",
+            "date15": "Maiatzak 24"
         }
     },
     "infos": {
