@@ -15,7 +15,8 @@
     },
     "match": {
         "date": "Maiatzak 24",
-        "lieu": "Saint-Gaudens",
+        "stade": "Stade Jules Ribet",
+        "lieu": "69 Av. de l'Isle, 31800 Saint-Gaudens",
         "msg": " Jatekoa eta edatekoa, zatozte numbrean !",
         "warn": "FINALA",
         "date2": "Martxoak 8",

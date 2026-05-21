@@ -15,7 +15,8 @@
     },
     "match": {
         "date": "Sunday, May 24",
-        "lieu": "Saint-Gaudens",
+        "stade": "Stade Jules Ribet",
+        "lieu": "69 Av. de l'Isle, 31800 Saint-Gaudens",
         "msg": "Refreshment stand, all welcome !",
         "warn": "NATIONAL 3 FINAL",
         "date2": "Sunday, March 8",
