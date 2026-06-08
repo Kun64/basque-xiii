@@ -1,0 +1,26 @@
+<!-- MODALS - Conteneurs pour modales réutilisables -->
+
+<!-- Resume Modal -->
+<div id="resume-modal" class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden items-start justify-center pt-6 z-50 transition-opacity duration-300 overflow-auto">
+  <div id="resume-box" class="bg-white rounded-xl shadow-xl max-w-xl w-11/12 md:w-[600px] relative p-6 text-gray-800 overflow-y-auto max-h-[95vh] transform scale-95 opacity-0 transition-all duration-300">
+    <button id="close-modal" class="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-2xl leading-none">&times;</button>
+    <div id="resume-content">
+      <p class="text-center text-gray-500" data-i18n="chargement"></p>
+    </div>
+  </div>
+</div>
+
+<!-- Team Modal -->
+<div id="equipe-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm hidden items-start justify-center z-50 p-4 overflow-y-auto">
+  <div id="equipe-box" class="bg-white rounded-xl shadow-xl max-w-4xl w-full mt-6 transform scale-95 opacity-0 transition-all duration-300">
+    <button id="close-equipe" class="absolute top-3 right-3 text-gray-500 hover:text-gray-700 text-2xl leading-none">&times;</button>
+    <div id="equipe-content" class="p-4 overflow-y-auto max-h-[85vh] text-gray-800">
+      <p class="text-center text-gray-500" data-i18n="chargement"></p>
+    </div>
+  </div>
+</div>
+
+<!-- Poster Lightbox -->
+<div id="affiche-modal" class="fixed inset-0 bg-black/80 hidden items-center justify-center z-50 p-4">
+  <img id="affiche-modal-img" src="images/affiches/visuTxapelnudak.jpeg" alt="Affiche" class="w-auto max-h-[90vh] object-contain rounded-2xl shadow-2xl">
+</div>
