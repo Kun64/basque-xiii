@@ -119,20 +119,17 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 
   // Affiche (sans contenu à charger, juste image)
-  const openBtn = document.getElementById("open-affiche");
   const modal = document.getElementById("affiche-modal");
+  const closeAffiBtn = document.getElementById("close-affiche");
 
-  if (openBtn && modal) {
-    openBtn.addEventListener("click", () => {
-      modal.classList.remove("hidden");
-      modal.classList.add("flex");
-    });
-
+  if (closeAffiBtn && modal) {
     const handleCloseAffiche = () => {
       modal.classList.add("hidden");
       modal.classList.remove("flex");
+      document.getElementById("affiche-modal-img").src = "";
     };
 
+    closeAffiBtn.addEventListener("click", handleCloseAffiche);
     modal.addEventListener("click", e => {
       if (e.target === modal) handleCloseAffiche();
     });

@@ -12,18 +12,20 @@
 
   <!-- @include: header.html -->
 
-  <!-- Bandeau match champions -->
+  <!-- Bandeau initiation -->
   <section class="bg-green-700 text-white">
-    <div class="max-w-6xl mx-auto px-4 py-8">
+    <div class="max-w-6xl mx-auto px-4 py-4">
       <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
         <div class="flex-shrink-0">
-          <button id="open-affiche" class="bg-white rounded-xl shadow-lg p-2 hover:scale-105 transition-transform">
-            <img src="images/affiches/visuTxapelnudak.jpeg" alt="Affiche Basque XIII vs XIII Gascon" class="w-32 sm:w-36 md:w-40 rounded-lg object-contain">
+          <button class="zoom-affiche bg-white rounded-xl shadow-lg p-1 hover:scale-105 transition-transform cursor-pointer" data-img="images/initiation.png">
+            <img src="images/initiation.png" alt="Initiation rugby à XIII" class="w-32 sm:w-36 md:w-40 rounded-lg object-contain">
           </button>
         </div>
         <div class="text-center space-y-3">
-          <p class="text-base sm:text-xl font-semibold tracking-wide"><span class="text-red-500">TXAPELDUNAK !!!</span></p>
-          <p class="text-base sm:text-lg font-bold">Champions de France DN3 2026 !</p>
+          <p class="text-base sm:text-xl font-semibold tracking-wide"><span class="text-red-500">INITIATION</span></p>
+          <p class="text-base sm:text-lg font-bold">Samedi 13 juin - 10h à 11h</p>
+          <p class="text-base sm:text-lg font-bold">Stade Orok Bat - Anglet</p>
+          <p class="text-sm sm:text-base">Initiation au rugby à XIII</p>
         </div>
       </div>
     </div>
