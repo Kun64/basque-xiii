@@ -17,16 +17,18 @@
     <div class="max-w-6xl mx-auto px-4 py-4">
       <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
         <div class="flex-shrink-0">
-          <button class="zoom-affiche bg-white rounded-xl shadow-lg p-1 hover:scale-105 transition-transform cursor-pointer" data-img="images/initiation.png">
-            <img src="images/initiation.png" alt="Initiation rugby à XIII" class="w-32 sm:w-36 md:w-40 rounded-lg object-contain">
+          <button class="zoom-affiche bg-white rounded-xl shadow-lg p-1 hover:scale-105 transition-transform cursor-pointer" data-img="images/affiches/recrutementU19.png">
+            <img src="images/affiches/recrutementU19.png" alt="Recrutement U19" class="w-32 sm:w-36 md:w-40 rounded-lg object-contain">
           </button>
         </div>
         <div class="text-center space-y-3">
-          <p class="text-base sm:text-xl font-semibold tracking-wide"><span class="text-red-500">INITIATION</span></p>
-          <p class="text-base sm:text-lg font-bold">Samedi 13 juin prochain !</p>
-          <p class="text-base sm:text-lg font-bold">Stade Orok Bat, Anglet, de 10h à 11h</p>
-          <p class="text-sm sm:text-base">Venez découvrir le rugby à XIII lors d'une initiation animée par les joueurs de Basque XIII</p>
-          <p class="text-sm sm:text-base">Ouvert à toutes et à tous, quel que soit votre âge et votre niveau.<br>Une occasion idéale pour s'initier à ce sport dans une ambiance conviviale !</p>
+          <p class="text-base sm:text-xl font-semibold tracking-wide"><span class="text-red-500">RECRUTEMENT U19</span></p>
+          <p class="text-base sm:text-lg font-bold">La nouvelle équipe U19 de Basque XIII recrute !</p>
+          <p class="text-base sm:text-lg font-bold">Rejoins l'aventure du rugby à XIII !</p>
+          <p class="text-sm sm:text-base">Né entre 2007 et 2009 ?</p>
+          <p class="text-sm sm:text-base">
+            > <a href="#contact" class="text-white font-semibold hover:text-red-500">Contacte-nous ici</a> < ou au <span class="font-semibold">0686882879</span>
+          </p>
         </div>
       </div>
     </div>
