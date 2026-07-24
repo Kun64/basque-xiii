@@ -51,8 +51,8 @@
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Maiatzak 24 — Saint-Gaudens",
-            "dateLieu2": "Apirilak 11 — Stade Girouette, Anglet"
+            "dateLieu1": "Urriak 11 — Kanpoan",
+            "dateLieu2": "Urriak 18 — Angelu"
         },
         "reseaux": {
             "titre": "Segi gaitzazue",
@@ -100,21 +100,16 @@
         "resume": "→ Laburpena",
         "forfait": "Opor egin bidezko garaipena",
         "matchs": {
-            "date1": "Urriak 18",
-            "date2": "Azaroak 01",
-            "date3": "Azaroak 15",
-            "date4": "Azaroak 29",
-            "date5": "Urtarrilak 17",
-            "date6": "Martxoak 08",
-            "date7": "Otsailak 07",
-            "date8": "Apirilak 18-19",
-            "date9": "Martxoak 14",
-            "date10": "Martxoak 29",
-            "date11": "Apirilak 04",
-            "date12": "Apirilak 11-12",
-            "date13": "Apirilak 26",
-            "date14": "Maiatzak 10",
-            "date15": "Maiatzak 24"
+            "date1": "Urriak 11",
+            "date2": "Urriak 18",
+            "date3": "Azaroak 1",
+            "date4": "Azaroak 15",
+            "date5": "Azaroak 26",
+            "date6": "Abenduak 13",
+            "date7": "Urtarrilak 17",
+            "date8": "Urtarrilak 31",
+            "date9": "Otsailak 14",
+            "date10": "Otsailak 21"
         }
     },
     "infos": {

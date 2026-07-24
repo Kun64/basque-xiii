@@ -51,8 +51,8 @@
         },
         "prochainsMatchs": {
             "titre": "Next matches",
-            "dateLieu1": "May 24 — Saint-Gaudens",
-            "dateLieu2": "April 11 — Stade Girouette, Anglet"
+            "dateLieu1": "October 11 — Away",
+            "dateLieu2": "October 18 — Home"
         },
         "reseaux": {
             "titre": "Follow us",
@@ -100,21 +100,16 @@
         "resume": "→ Summary",
         "forfait": "Victory by forfeit",
         "matchs": {
-            "date1": "October 18",
-            "date2": "November 1st",
-            "date3": "November 15",
-            "date4": "November 29",
-            "date5": "January 17",
-            "date6": "March 08",
-            "date7": "February 07",
-            "date8": "April 18-19",
-            "date9": "March 14",
-            "date10": "March 29",
-            "date11": "April 04",
-            "date12": "April 11-12",
-            "date13": "April 26",
-            "date14": "May 10",
-            "date15": "May 24"
+            "date1": "October 11",
+            "date2": "October 18",
+            "date3": "November 1st",
+            "date4": "November 15",
+            "date5": "November 26",
+            "date6": "December 13",
+            "date7": "January 17",
+            "date8": "January 31",
+            "date9": "February 14",
+            "date10": "February 21"
         }
     },
     "infos": {

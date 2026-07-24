@@ -87,6 +87,10 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500" data-i18n="hero.prochainsMatchs.titre"></p>
+              <p class="font-bold mt-1">Lescure 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
+              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
+              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Gratentour</p>
+              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu2"></p>
             </div>
           </div>
         </div>
@@ -159,33 +163,19 @@
         <h3 class="font-bold text-lg mb-2 text-green-700" data-i18n="calendrier.titre"></h3>
         <p class="text-base text-gray-600 mb-4" data-i18n="calendrier.aller"></p>
         <ul class="space-y-2 text-base text-gray-700">
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date1"></span> — Nantes vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-green-700">28 - 38</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/nantesA.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date2"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valdériès <span class="ml-2 font-semibold text-red-700">26 - 30</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/valderiesA.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date3"></span> — Pamiers 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-green-700">6 - 62</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/pamiersA.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date4"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Ecole du XIII Saint Pierrais <span class="ml-2 font-semibold text-green-700">30 - 16</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/trivisyA.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date5"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs XIII Gascon <span class="ml-2 font-semibold text-green-700">56 - 0</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/gasconA.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date6"></span> — Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-red-700">30 - 18</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/toulouseA.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date1"></span> — Lescure 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date2"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Gratentour</li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date3"></span> — Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date4"></span> — Valentines Comminges XIII vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date5"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Bègles / La Réole</li>
         </ul>
         <p class="text-base text-gray-600 mb-4 mt-4" data-i18n="calendrier.retour"></p>
         <ul class="space-y-2 text-base text-gray-700">
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date7"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Nantes <span class="ml-2 font-semibold" data-i18n="calendrier.forfait"></span></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date9"></span> — Ecole du XIII Saint Pierrais vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-red-700">28 - 24</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/trivisyR.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date10"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Pamiers 2 <span class="ml-2 font-semibold text-green-700">90 - 10</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/pamiersR.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date11"></span> — XIII Gascon vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-red-700">24 - 18</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/gasconR.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date12"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Toulouse Jules Julien <span class="ml-2 font-semibold text-green-700">24 - 16</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/toulouseR.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date8"></span> — Valdériès vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-green-700">28 - 29</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/valderiesR.html" data-i18n="calendrier.resume"></button></li>
-        </ul>
-        <p class="text-base text-gray-600 mb-4 mt-4" data-i18n="calendrier.quart"></p>
-        <ul class="space-y-2 text-base text-gray-700">
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date13"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Caumont / Le Thor <span class="ml-2 font-semibold text-green-700">52 - 06</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/caumont.html" data-i18n="calendrier.resume"></button></li>
-        </ul>
-        <p class="text-base text-gray-600 mb-4 mt-4" data-i18n="calendrier.demi"></p>
-        <ul class="space-y-2 text-base text-gray-700">
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date14"></span> — Toulon / VVRL vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-green-700">24 - 48</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/toulon.html" data-i18n="calendrier.resume"></button></li>
-        </ul>
-        <p class="text-base text-gray-600 mb-4 mt-4" data-i18n="calendrier.finale"></p>
-        <ul class="space-y-2 text-base text-gray-700">
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date15"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Toulouse Jules Julien <span class="ml-2 font-semibold text-green-700">30 - 16</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/toulouseFinale.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date6"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Lescure 2</li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date7"></span> — Gratentour vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date8"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Toulouse Jules Julien</li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date9"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valentines Comminges XIII</li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date10"></span> — Bègles / La Réole vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
         </ul>
       </div>
 
