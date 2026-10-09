@@ -5,30 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Basque XIII</title>
   <link rel="icon" type="image/png" href="images/favicon-32x32.png">
-  <link rel="stylesheet" href="/css/output.css">
+  <link rel="stylesheet" href="css/output.css">
   <script src="https://cdn.counter.dev/script.js" data-id="90468bca-22fb-4b8e-aacd-8ce95a14b111" data-utcoffset="1"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
   <!-- @include: header.html -->
 
-  <!-- Bandeau initiation -->
+  <!-- Bandeau image -->
   <section class="bg-green-700 text-white">
     <div class="max-w-6xl mx-auto px-4 py-4">
       <div class="flex flex-col sm:flex-row items-center justify-center gap-8">
-        <div class="flex-shrink-0">
+        <!--<div class="flex-shrink-0">
           <button class="zoom-affiche bg-white rounded-xl shadow-lg p-1 hover:scale-105 transition-transform cursor-pointer" data-img="images/affiches/recrutementU19.png">
             <img src="images/affiches/recrutementU19.png" alt="Recrutement U19" class="w-32 sm:w-36 md:w-40 rounded-lg object-contain">
           </button>
-        </div>
+        </div>-->
         <div class="text-center space-y-3">
-          <p class="text-base sm:text-xl font-semibold tracking-wide"><span class="text-red-500">RECRUTEMENT U19</span></p>
-          <p class="text-base sm:text-lg font-bold">La nouvelle équipe U19 de Basque XIII recrute !</p>
-          <p class="text-base sm:text-lg font-bold">Rejoins l'aventure du rugby à XIII !</p>
-          <p class="text-sm sm:text-base">Né entre 2007 et 2009 ?</p>
-          <p class="text-sm sm:text-base">
-            > <a href="#contact" class="text-white font-semibold hover:text-red-500">Contacte-nous ici</a> < ou au <span class="font-semibold">0686882879</span>
-          </p>
+          <p class="text-base sm:text-xl font-semibold tracking-wide"><span class="text-red-500">BASQUE XIII</span> - GRATENTOUR</p>
+          <p class="text-base sm:text-lg font-bold">Dimanche 18 octobre</p>
+          <p class="text-base sm:text-lg font-bold">Venez nombreux !</p>
+          <p class="text-sm sm:text-base">Espace bendern – avenue henri haget – 64200 Biarritz</p>
         </div>
       </div>
     </div>
@@ -113,15 +110,6 @@
     <div class="max-w-6xl mx-auto px-4">
       <section class="mt-12 mb-12">
         <h2 class="text-2xl font-bold text-green-700 mb-4" data-i18n="news.titre"></h2>
-        
-        <a href="https://www.ici.fr/emissions/100-rugby-au-pays-basque/basque-xiii-fete-son-titre-de-champion-de-france-le-derby-ascain-bidart-et-des-chips-1412573" target="_blank" class="group relative block overflow-hidden rounded-2xl shadow-lg mb-8">
-          <img src="images/affiches/championsDN3.jpeg" alt="Photo champions terrain" class="w-full h-64 object-cover object-top transition-transform duration-300 group-hover:scale-105">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 p-6 text-white">
-            <h3 class="text-2xl font-bold mb-2 group-hover:text-green-400 transition">Basque XIII fête son titre de champion de France</h3>
-            <p class="text-sm text-gray-200 max-w-md">Basque XIII devient champion de France de Nationale 3, un an après sa création !</p>
-          </div>
-        </a>
 
         <a href="https://www.sudouest.fr/sport/rugby-a-xiii-un-bouclier-historique-pour-la-premiere-saison-de-basque-xiii-29213396.php" target="_blank" class="group relative block overflow-hidden rounded-2xl shadow-lg mb-8">
           <img src="images/affiches/championsDN3.jpeg" alt="Photo Renaud" class="w-full h-64 object-cover object-center transition-transform duration-300 group-hover:scale-105">
@@ -131,24 +119,7 @@
             <p class="text-sm text-gray-200 max-w-md">En l’emportant en finale contre Toulouse Jules Julien (30-16), les Basques s’emparent du titre de champion de France de N3 et ramènent le bouclier vers les rivages de la Côte basque, après juste un an d’existence</p>
           </div>
         </a>
-
-        <a href="https://euskalirratiak.eus/aktualitatea/euskal-xiii-errugbi-taldeak-nationale-3-txapelketa-irabazi-du" target="_blank" class="group relative block overflow-hidden rounded-2xl shadow-lg mb-8">
-          <img src="images/affiches/championsDN3.jpeg" alt="Photo Renaud" class="w-full h-64 object-cover object-bottom transition-transform duration-300 group-hover:scale-105">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 p-6 text-white">
-            <h3 class="text-2xl font-bold mb-2 group-hover:text-green-400 transition">Euskal XIII errugbi taldeak Nationale 3 txapelketa irabazi du</h3>
-            <p class="text-sm text-gray-200 max-w-md">Bigarren zatian diete gaina hartu Jules-Julien taldeko okzitaniarrei 30-16 nagusitzeko. Duela urtea sortu Euskal XIII taldeak bere lehen titulua jada irabazi du. Nationale 2 mailan lehiatuko da heldu den denboraldian.</p>
-          </div>
-        </a>
-
-        <a href="https://www.sudouest.fr/pyrenees-atlantiques/anglet/rugby-a-xiii-nationale-3-deja-qualifie-pour-les-phases-finales-basque-xiii-est-tres-a-son-aise-des-ses-debuts-28760236.php" target="_blank" class="group relative block overflow-hidden rounded-2xl shadow-lg mb-8">
-          <img src="images/photo4.jpg" alt="Photo Renaud" class="w-full h-64 object-cover object-top transition-transform duration-300 group-hover:scale-105">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 p-6 text-white">
-            <h3 class="text-2xl font-bold mb-2 group-hover:text-green-400 transition" data-i18n="news.news.titre"></h3>
-            <p class="text-sm text-gray-200 max-w-md" data-i18n="news.news.texte"></p>
-          </div>
-        </a>
+        
       </section>
     </div>
   </div>
