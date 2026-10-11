@@ -69,13 +69,13 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500" data-i18n="hero.dernierMatch.titre"></p>
-              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="text-green-700">30 - 16</span> Toulouse Jules Julien</p>
+              <p class="font-bold mt-1">Lescure XIII <span class="text-green-700">12 - 46</span> <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.dernierMatch.dateLieu"></p>
             </div>
             <span class="bg-green-700 text-white text-xs font-bold px-3 py-1 rounded-lg" data-i18n="hero.dernierMatch.victoire"></span>
           </div>
           <div class="border-t pt-3 text-sm text-gray-700">
-            <button class="font-semibold hover:text-green-700" data-resume="resumes/toulouseFinale.html" data-i18n="hero.dernierMatch.resume"></button>
+            <button class="font-semibold hover:text-green-700" data-resume="resumes/saison2627/lescureA.html" data-i18n="hero.dernierMatch.resume"></button>
           </div>
         </div>
 
@@ -84,9 +84,9 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500" data-i18n="hero.prochainsMatchs.titre"></p>
-              <p class="font-bold mt-1">Lescure 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
-              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
               <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Gratentour</p>
+              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
+              <p class="font-bold mt-1">Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu2"></p>
             </div>
           </div>
@@ -119,7 +119,7 @@
             <p class="text-sm text-gray-200 max-w-md">En l’emportant en finale contre Toulouse Jules Julien (30-16), les Basques s’emparent du titre de champion de France de N3 et ramènent le bouclier vers les rivages de la Côte basque, après juste un an d’existence</p>
           </div>
         </a>
-        
+
       </section>
     </div>
   </div>
@@ -134,7 +134,7 @@
         <h3 class="font-bold text-lg mb-2 text-green-700" data-i18n="calendrier.titre"></h3>
         <p class="text-base text-gray-600 mb-4" data-i18n="calendrier.aller"></p>
         <ul class="space-y-2 text-base text-gray-700">
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date1"></span> — Lescure 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date1"></span> — Lescure 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-green-700">12 - 46</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/lescureA.html" data-i18n="calendrier.resume"></button></li>
           <li><span class="font-semibold" data-i18n="calendrier.matchs.date2"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Gratentour</li>
           <li><span class="font-semibold" data-i18n="calendrier.matchs.date3"></span> — Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
           <li><span class="font-semibold" data-i18n="calendrier.matchs.date4"></span> — Valentines Comminges XIII vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>

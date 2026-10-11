@@ -46,13 +46,13 @@
             "titre": "Dernier match",
             "victoire": "Victoire",
             "defaite": "Défaite",
-            "dateLieu": "Dimanche 24 Mai — Saint-Gaudens",
+            "dateLieu": "Dimanche 11 Octobre — Lescure",
             "resume": "Voir le résumé du match →"
         },
         "prochainsMatchs": {
             "titre": "Prochains matchs",
-            "dateLieu1": "11 Octobre — Extérieur",
-            "dateLieu2": "18 Octobre — Domicile"
+            "dateLieu1": "18 Octobre — Domicile",
+            "dateLieu2": "1er Novembre — Extérieur"
         },
         "reseaux": {
             "titre": "Suivez-nous",
