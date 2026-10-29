@@ -112,6 +112,23 @@
             "date10": "21 Février"
         }
     },
+    "classement": {
+        "titre": "Classement — Division Nationale 2",
+        "description": "Phase 1, Poule Ouest — saison 2026/2027.",
+        "erreur": "Le classement est temporairement indisponible. Consultez la source pour voir les dernières données.",
+        "miseAJour": "Dernière mise à jour indiquée par Treize Mondial : ",
+        "source": "Voir le classement complet sur Treize Mondial →",
+        "colonnes": {
+            "position": "#",
+            "equipe": "Équipe",
+            "points": "Pts",
+            "joues": "J",
+            "gagnes": "V",
+            "nuls": "N",
+            "perdus": "D",
+            "difference": "Diff"
+        }
+    },
     "infos": {
         "titre": "Infos pratiques",
         "texte1": "Stade des matchs :",

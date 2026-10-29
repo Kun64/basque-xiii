@@ -112,6 +112,23 @@
             "date10": "February 21"
         }
     },
+    "classement": {
+        "titre": "Standings — National Division 2",
+        "description": "Phase 1, West Group — 2026/2027 season.",
+        "erreur": "The standings are temporarily unavailable. Visit the source to see the latest data.",
+        "miseAJour": "Last update indicated by Treize Mondial: ",
+        "source": "View the full standings on Treize Mondial →",
+        "colonnes": {
+            "position": "#",
+            "equipe": "Team",
+            "points": "Pts",
+            "joues": "P",
+            "gagnes": "W",
+            "nuls": "D",
+            "perdus": "L",
+            "difference": "Diff"
+        }
+    },
     "infos": {
         "titre": "Useful information",
         "texte1": "Match stadium :",

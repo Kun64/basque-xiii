@@ -98,6 +98,8 @@ burger.addEventListener("click", () => {
 // MODALES CHARGABLES
 // ============================================
 document.addEventListener("DOMContentLoaded", () => {
+  loadStandings();
+
   // Résumés de matchs
   initLoadableModal(
     "resume-modal",
@@ -161,3 +163,81 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+async function loadStandings() {
+  const loading = document.getElementById("standings-loading");
+  const error = document.getElementById("standings-error");
+  const content = document.getElementById("standings-content");
+  const rows = document.getElementById("standings-rows");
+  const updatedNote = document.getElementById("standings-updated-note");
+  const updated = document.getElementById("standings-updated");
+
+  if (!loading || !error || !content || !rows || !updatedNote || !updated) return;
+
+  try {
+    const response = await fetch("/data/standings-dn2-ouest.json");
+    if (!response.ok) {
+      throw new Error(`Erreur HTTP ${response.status} lors du chargement du classement.`);
+    }
+
+    const data = await response.json();
+    if (
+      !Array.isArray(data.standings) ||
+      data.standings.length === 0 ||
+      !data.standings.every(isValidStanding)
+    ) {
+      throw new Error("Le fichier de classement contient des données invalides.");
+    }
+
+    data.standings.forEach(standing => {
+      const row = document.createElement("tr");
+      row.className = standing.team.toLowerCase() === "basque xiii"
+        ? "bg-green-50 font-semibold"
+        : "";
+
+      [
+        standing.position,
+        standing.team,
+        standing.points,
+        standing.played,
+        standing.wins,
+        standing.draws,
+        standing.losses,
+        standing.difference > 0 ? `+${standing.difference}` : standing.difference
+      ].forEach((value, index) => {
+        const cell = document.createElement("td");
+        cell.className = index === 1
+          ? "px-3 py-3"
+          : "px-3 py-3 text-center";
+        cell.textContent = value;
+        row.appendChild(cell);
+      });
+
+      rows.appendChild(row);
+    });
+
+    if (typeof data.sourceUpdated === "string" && data.sourceUpdated) {
+      updated.textContent = data.sourceUpdated;
+      updatedNote.hidden = false;
+    }
+    loading.hidden = true;
+    content.hidden = false;
+  } catch (err) {
+    console.error("Impossible de charger le classement de la Poule Ouest.", err);
+    loading.hidden = true;
+    error.hidden = false;
+  }
+}
+
+function isValidStanding(standing) {
+  return standing &&
+    Number.isInteger(standing.position) &&
+    typeof standing.team === "string" &&
+    standing.team.length > 0 &&
+    Number.isInteger(standing.points) &&
+    Number.isInteger(standing.played) &&
+    Number.isInteger(standing.wins) &&
+    Number.isInteger(standing.draws) &&
+    Number.isInteger(standing.losses) &&
+    Number.isInteger(standing.difference);
+}

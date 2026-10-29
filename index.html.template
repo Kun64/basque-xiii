@@ -175,6 +175,47 @@
     </div>
   </section>
 
+  <!-- Division Nationale 2 standings -->
+  <section id="classement" class="bg-gray-50 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-green-700 mb-2" data-i18n="classement.titre"></h2>
+      <p class="text-sm text-gray-600 mb-5" data-i18n="classement.description"></p>
+      <div class="bg-white shadow rounded-xl p-4 sm:p-6 border border-gray-100 text-gray-800">
+        <p id="standings-loading" class="text-center text-gray-500" data-i18n="chargement"></p>
+        <p id="standings-error" class="text-center text-red-600" data-i18n="classement.erreur" hidden></p>
+        <div id="standings-content" hidden>
+          <div class="overflow-x-auto">
+            <table class="w-full min-w-[640px] text-sm text-left">
+              <thead class="border-b border-gray-200 text-gray-500">
+                <tr>
+                  <th scope="col" class="px-3 py-3" data-i18n="classement.colonnes.position"></th>
+                  <th scope="col" class="px-3 py-3" data-i18n="classement.colonnes.equipe"></th>
+                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.points"></th>
+                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.joues"></th>
+                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.gagnes"></th>
+                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.nuls"></th>
+                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.perdus"></th>
+                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.difference"></th>
+                </tr>
+              </thead>
+              <tbody id="standings-rows" class="divide-y divide-gray-100"></tbody>
+            </table>
+          </div>
+          <p id="standings-updated-note" class="mt-4 text-xs text-gray-500" hidden>
+            <span data-i18n="classement.miseAJour"></span><span id="standings-updated"></span>
+          </p>
+        </div>
+        <a
+          href="https://treizemondial.fr/classement-division-nationale-2-phase-1-2026-2027/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-block mt-4 text-sm font-semibold text-green-700 hover:text-green-800"
+          data-i18n="classement.source"
+        ></a>
+      </div>
+    </div>
+  </section>
+
   <!-- Partners Section -->
   <section class="border-t-4 border-b-4 border-red-700 border-b-green-700 bg-white/80 py-6">
     <div class="max-w-6xl mx-auto px-6 text-center">

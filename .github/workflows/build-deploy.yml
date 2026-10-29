@@ -3,6 +3,9 @@ name: Build and Deploy
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -25,6 +28,15 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Fetch West standings
+        id: standings
+        continue-on-error: true
+        run: python3 scripts/fetch-standings.py
+
+      - name: Warn if standings could not be refreshed
+        if: steps.standings.outcome == 'failure'
+        run: echo "::warning::Standings refresh failed; deploying the last available data."
 
       - name: Build project
         run: npm run build
