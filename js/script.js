@@ -209,6 +209,7 @@ async function loadStandings() {
           "px-1",
           "py-2",
           index === 1 ? "" : "text-center",
+          index > 2 && index < 7 ? "hidden sm:table-cell" : "",
           isBasqueXiii ? "bg-green-200" : "",
           isBasqueXiii && index === 0 ? "border-l-4 border-green-700" : ""
         ].filter(Boolean).join(" ");
