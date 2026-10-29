@@ -38,28 +38,50 @@
       <div>
         <h1 class="text-4xl md:text-5xl font-extrabold text-white mb-4" data-i18n="hero.titre"></h1>
         <p class="text-lg text-gray-100 mb-6" data-i18n="hero.sousTitre"></p>
-        <a href="#calendrier" class="bg-green-700 hover:bg-green-800 text-white px-6 py-3 rounded-xl font-semibold shadow" data-i18n="hero.calendrier"></a>
-        
-        <!-- Info Cards -->
-        <div class="grid sm:grid-cols-3 gap-4 mt-8">
-          <div class="bg-white/70 border border-green-100 rounded-xl p-4 shadow-sm text-gray-800">
-            <h3 class="font-bold text-lg mb-1 text-green-700" data-i18n="hero.entrainements.titre"></h3>
-            <p class="text-sm text-gray-600" data-i18n="hero.entrainements.texte1"></p>
-            <p class="text-sm text-gray-600" data-i18n="hero.entrainements.texte2"></p>
-            <p class="mt-2" data-i18n="hero.entrainements.texte3"></p>
+        <div id="classement" class="mt-8 bg-white/70 border border-gray-100 rounded-xl p-4 shadow text-gray-800">
+          <h2 class="font-bold text-lg text-green-700 mb-1" data-i18n="classement.titre"></h2>
+          <p class="text-xs text-gray-600 mb-3" data-i18n="classement.description"></p>
+          <p id="standings-loading" class="text-center text-gray-500" data-i18n="chargement"></p>
+          <p id="standings-error" class="text-center text-red-600" data-i18n="classement.erreur" hidden></p>
+          <div id="standings-content" hidden>
+            <div class="overflow-x-auto">
+              <table class="w-full min-w-[520px] lg:min-w-0 table-fixed text-xs text-left">
+                <colgroup>
+                  <col class="w-[6%]">
+                  <col class="w-[40%]">
+                  <col class="w-[9%]">
+                  <col class="w-[9%]">
+                  <col class="w-[9%]">
+                  <col class="w-[9%]">
+                  <col class="w-[9%]">
+                  <col class="w-[9%]">
+                </colgroup>
+                <thead class="border-b border-gray-200 text-gray-500">
+                  <tr>
+                    <th scope="col" class="px-1 py-2" data-i18n="classement.colonnes.position"></th>
+                    <th scope="col" class="px-1 py-2" data-i18n="classement.colonnes.equipe"></th>
+                    <th scope="col" class="px-1 py-2 text-center" data-i18n="classement.colonnes.points"></th>
+                    <th scope="col" class="px-1 py-2 text-center" data-i18n="classement.colonnes.joues"></th>
+                    <th scope="col" class="px-1 py-2 text-center" data-i18n="classement.colonnes.gagnes"></th>
+                    <th scope="col" class="px-1 py-2 text-center" data-i18n="classement.colonnes.nuls"></th>
+                    <th scope="col" class="px-1 py-2 text-center" data-i18n="classement.colonnes.perdus"></th>
+                    <th scope="col" class="px-1 py-2 text-center" data-i18n="classement.colonnes.difference"></th>
+                  </tr>
+                </thead>
+                <tbody id="standings-rows" class="divide-y divide-gray-100"></tbody>
+              </table>
+            </div>
+            <p id="standings-updated-note" class="mt-3 text-xs text-gray-500" hidden>
+              <span data-i18n="classement.miseAJour"></span><span id="standings-updated"></span>
+            </p>
           </div>
-          <div class="bg-white/70 border border-green-100 rounded-xl p-4 shadow-sm text-gray-800">
-            <h3 class="font-bold text-lg mb-1 text-green-700" data-i18n="hero.recrutement.titre"></h3>
-            <p class="text-sm text-gray-600" data-i18n="hero.recrutement.texte1"></p>
-            <p class="mt-2" data-i18n="hero.recrutement.texte2"></p>
-            <a href="#contact" class="text-gray-700 font-semibold hover:text-green-700" data-i18n="button.contact"></a>
-          </div>
-          <div class="bg-white/70 border border-green-100 rounded-xl p-4 shadow-sm text-gray-800">
-            <h3 class="font-bold text-lg mb-1 text-green-700" data-i18n="hero.partenaires.titre"></h3>
-            <p class="text-sm text-gray-600" data-i18n="hero.partenaires.texte1"></p>
-            <p class="mt-2" data-i18n="hero.partenaires.texte2"></p>
-            <a href="#contact" class="text-gray-700 font-semibold hover:text-green-700" data-i18n="button.contact"></a>
-          </div>
+          <a
+            href="https://treizemondial.fr/classement-division-nationale-2-phase-1-2026-2027/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block mt-3 text-xs font-semibold text-green-700 hover:text-green-800"
+            data-i18n="classement.source"
+          ></a>
         </div>
       </div>
 
@@ -171,47 +193,6 @@
             <button type="submit" class="bg-green-700 hover:bg-green-800 text-white px-5 py-2 rounded-lg font-semibold" data-i18n="button.envoyer"></button>
           </form>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Division Nationale 2 standings -->
-  <section id="classement" class="bg-gray-50 py-12">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-2xl font-bold text-green-700 mb-2" data-i18n="classement.titre"></h2>
-      <p class="text-sm text-gray-600 mb-5" data-i18n="classement.description"></p>
-      <div class="bg-white shadow rounded-xl p-4 sm:p-6 border border-gray-100 text-gray-800">
-        <p id="standings-loading" class="text-center text-gray-500" data-i18n="chargement"></p>
-        <p id="standings-error" class="text-center text-red-600" data-i18n="classement.erreur" hidden></p>
-        <div id="standings-content" hidden>
-          <div class="overflow-x-auto">
-            <table class="w-full min-w-[640px] text-sm text-left">
-              <thead class="border-b border-gray-200 text-gray-500">
-                <tr>
-                  <th scope="col" class="px-3 py-3" data-i18n="classement.colonnes.position"></th>
-                  <th scope="col" class="px-3 py-3" data-i18n="classement.colonnes.equipe"></th>
-                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.points"></th>
-                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.joues"></th>
-                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.gagnes"></th>
-                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.nuls"></th>
-                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.perdus"></th>
-                  <th scope="col" class="px-3 py-3 text-center" data-i18n="classement.colonnes.difference"></th>
-                </tr>
-              </thead>
-              <tbody id="standings-rows" class="divide-y divide-gray-100"></tbody>
-            </table>
-          </div>
-          <p id="standings-updated-note" class="mt-4 text-xs text-gray-500" hidden>
-            <span data-i18n="classement.miseAJour"></span><span id="standings-updated"></span>
-          </p>
-        </div>
-        <a
-          href="https://treizemondial.fr/classement-division-nationale-2-phase-1-2026-2027/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="inline-block mt-4 text-sm font-semibold text-green-700 hover:text-green-800"
-          data-i18n="classement.source"
-        ></a>
       </div>
     </div>
   </section>

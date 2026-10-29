@@ -191,9 +191,8 @@ async function loadStandings() {
 
     data.standings.forEach(standing => {
       const row = document.createElement("tr");
-      row.className = standing.team.toLowerCase() === "basque xiii"
-        ? "bg-green-50 font-semibold"
-        : "";
+      const isBasqueXiii = standing.team.toLowerCase() === "basque xiii";
+      if (isBasqueXiii) row.className = "font-semibold";
 
       [
         standing.position,
@@ -206,9 +205,13 @@ async function loadStandings() {
         standing.difference > 0 ? `+${standing.difference}` : standing.difference
       ].forEach((value, index) => {
         const cell = document.createElement("td");
-        cell.className = index === 1
-          ? "px-3 py-3"
-          : "px-3 py-3 text-center";
+        cell.className = [
+          "px-1",
+          "py-2",
+          index === 1 ? "" : "text-center",
+          isBasqueXiii ? "bg-green-200" : "",
+          isBasqueXiii && index === 0 ? "border-l-4 border-green-700" : ""
+        ].filter(Boolean).join(" ");
         cell.textContent = value;
         row.appendChild(cell);
       });
