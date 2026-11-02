@@ -175,7 +175,10 @@ async function loadStandings() {
   if (!loading || !error || !content || !rows || !updatedNote || !updated) return;
 
   try {
-    const response = await fetch("/data/standings-dn2-ouest.json");
+    const response = await fetch(
+      `/data/standings-dn2-ouest.json?t=${Date.now()}`,
+      { cache: "no-store" }
+    );
     if (!response.ok) {
       throw new Error(`Erreur HTTP ${response.status} lors du chargement du classement.`);
     }
@@ -184,7 +187,9 @@ async function loadStandings() {
     if (
       !Array.isArray(data.standings) ||
       data.standings.length === 0 ||
-      !data.standings.every(isValidStanding)
+      !data.standings.every(isValidStanding) ||
+      typeof data.retrievedAt !== "string" ||
+      Number.isNaN(Date.parse(data.retrievedAt))
     ) {
       throw new Error("Le fichier de classement contient des données invalides.");
     }
@@ -220,10 +225,13 @@ async function loadStandings() {
       rows.appendChild(row);
     });
 
-    if (typeof data.sourceUpdated === "string" && data.sourceUpdated) {
-      updated.textContent = data.sourceUpdated;
-      updatedNote.hidden = false;
-    }
+    const locale = {
+      fr: "fr-FR",
+      eu: "eu-ES",
+      en: "en-GB"
+    }[localStorage.getItem("lang")] || "fr-FR";
+    updated.textContent = new Date(data.retrievedAt).toLocaleString(locale);
+    updatedNote.hidden = false;
     loading.hidden = true;
     content.hidden = false;
   } catch (err) {
