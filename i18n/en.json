@@ -45,13 +45,13 @@
             "titre": "Last match",
             "victoire": "Victory",
             "defaite": "Defeat",
-            "dateLieu": "October 18 — Biarritz",
+            "dateLieu": "October 31 — Away",
             "resume": "Match summary →"
         },
         "prochainsMatchs": {
             "titre": "Next matches",
-            "dateLieu1": "November 1 — Away",
-            "dateLieu2": "November 15 — Away"
+            "dateLieu1": "November 15 — Away",
+            "dateLieu2": "November 29 — Biarritz"
         },
         "reseaux": {
             "titre": "Follow us",
@@ -59,35 +59,7 @@
         }
     },
     "news": {
-        "titre": "News",
-        "news": {
-            "titre": "Rugby à XIII (Nationale 3). Déjà qualifié pour les phases finales, Basque XIII est très à son aise dès ses débuts",
-            "texte": "À peine créé et déjà qualifié. Un an après sa fondation, Basque XIII, deuxième à l’issue de la phase régulière, s’est hissé jusqu’en quarts de finale de N3. Si le club labourdin, qui reçoit Caumont-sur-Durance ce dimanche, est parti depuis le plus bas niveau de la discipline, il peut toujours espérer grimper d’un étage dès sa première saison"
-        },
-        "news1": {
-            "date": "November 5, 2025 - FFR 13",
-            "texte": "Les bons débuts de Basque XIII"
-        },
-        "news2": {
-            "date": "October 19, 2025 - Treize Mondial",
-            "texte": "Basque XIII s'impose à Nantes pour son retour !"
-        },
-        "news3": {
-            "date": "September 6, 2025 - Treize Mondial",
-            "texte": "Basque XIII jouera officiellement en DN3"
-        },
-        "news4": {
-            "date": "August 27, 2025 - Treize Mondial",
-            "texte": "Olivier Dumeaux : « Faire perdurer le club historique de Côte Basque XIII »"
-        },
-        "news5": {
-            "date": "August 18, 2025 - Rugbyrama",
-            "texte": "\"On s'est rendu compte qu'il y a beaucoup de partisans\" : la révolution du XIII au Pays basque"
-        },
-        "news6": {
-            "date": "August 8, 2025 - Sud Ouest",
-            "texte": "Anglet. « On n’est pas si perdu dans la masse quinziste » : il tente le pari de remonter un club de rugby à XIII au Pays basque"
-        }
+        "titre": "News"
     },
     "calendrier": {
         "titre": "Fixtures",
@@ -101,9 +73,9 @@
         "matchs": {
             "date1": "October 11",
             "date2": "October 18",
-            "date3": "November 1st",
+            "date3": "October 31",
             "date4": "November 15",
-            "date5": "November 26",
+            "date5": "November 29",
             "date6": "December 13",
             "date7": "January 17",
             "date8": "January 31",

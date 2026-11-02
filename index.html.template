@@ -91,13 +91,13 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500" data-i18n="hero.dernierMatch.titre"></p>
-              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="text-green-700">36 - 28</span> Gratentour</p>
+              <p class="font-bold mt-1">Toulouse Jules Julien <span class="text-red-700">16 - 12</span> <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.dernierMatch.dateLieu"></p>
             </div>
-            <span class="bg-green-700 text-white text-xs font-bold px-3 py-1 rounded-lg" data-i18n="hero.dernierMatch.victoire"></span>
+            <span class="bg-red-700 text-white text-xs font-bold px-3 py-1 rounded-lg" data-i18n="hero.dernierMatch.defaite"></span>
           </div>
           <div class="border-t pt-3 text-sm text-gray-700">
-            <button class="font-semibold hover:text-green-700" data-resume="resumes/saison2627/gratentourA.html" data-i18n="hero.dernierMatch.resume"></button>
+            <button class="font-semibold hover:text-green-700" data-resume="resumes/saison2627/toulouseA.html" data-i18n="hero.dernierMatch.resume"></button>
           </div>
         </div>
 
@@ -106,9 +106,9 @@
           <div class="flex items-center justify-between mb-4">
             <div>
               <p class="text-sm text-gray-500" data-i18n="hero.prochainsMatchs.titre"></p>
-              <p class="font-bold mt-1">Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
-              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
               <p class="font-bold mt-1">Valentines Comminges XIII vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></p>
+              <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu1"></p>
+              <p class="font-bold mt-1"><span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Bègles / La Réole</p>
               <p class="text-sm text-gray-500 mt-1" data-i18n="hero.prochainsMatchs.dateLieu2"></p>
             </div>
           </div>
@@ -158,17 +158,17 @@
         <ul class="space-y-2 text-base text-gray-700">
           <li><span class="font-semibold" data-i18n="calendrier.matchs.date1"></span> — Lescure 2 vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <span class="ml-2 font-semibold text-green-700">12 - 46</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/lescureA.html" data-i18n="calendrier.resume"></button></li>
           <li><span class="font-semibold" data-i18n="calendrier.matchs.date2"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Gratentour <span class="ml-2 font-semibold text-green-700">36 - 28</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/gratentourA.html" data-i18n="calendrier.resume"></button></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date3"></span> — Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date4"></span> — Valentines Comminges XIII vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date5"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Bègles / La Réole</li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date3"></span> — Toulouse Jules Julien vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/toulouseA.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date4"></span> — Valentines Comminges XIII vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/valentinesA.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date5"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Bègles / La Réole <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/beglesA.html" data-i18n="calendrier.resume"></button></li>
         </ul>
         <p class="text-base text-gray-600 mb-4 mt-4" data-i18n="calendrier.retour"></p>
         <ul class="space-y-2 text-base text-gray-700">
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date6"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Lescure 2</li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date7"></span> — Gratentour vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date8"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Toulouse Jules Julien</li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date9"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valentines Comminges XIII</li>
-          <li><span class="font-semibold" data-i18n="calendrier.matchs.date10"></span> — Bègles / La Réole vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date6"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Lescure 2 <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/lescureR.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date7"></span> — Gratentour vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/gratentourR.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date8"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Toulouse Jules Julien <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/toulouseR.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date9"></span> — <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> vs Valentines Comminges XIII <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/valentinesR.html" data-i18n="calendrier.resume"></button></li>
+          <li><span class="font-semibold" data-i18n="calendrier.matchs.date10"></span> — Bègles / La Réole vs <span class="text-red-700">Basque </span><span class="text-green-700">XIII</span> <button class="font-semibold hover:text-green-700 ml-2" data-resume="resumes/saison2627/beglesR.html" data-i18n="calendrier.resume"></button></li>
         </ul>
       </div>
 

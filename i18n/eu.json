@@ -45,13 +45,13 @@
             "titre": "Azken partida",
             "victoire": "Garaipena",
             "defaite": "Garaitu",
-            "dateLieu": "Urriak 18 — Biarritz",
+            "dateLieu": "Urriak 31 — Kanpoan",
             "resume": "Partidaren laburpena →"
         },
         "prochainsMatchs": {
             "titre": "Hurrengo partidak",
-            "dateLieu1": "Azaroak 1 — Kanpoan",
-            "dateLieu2": "Azaroak 15 — Kanpoan"
+            "dateLieu1": "Azaroak 15 — Kanpoan",
+            "dateLieu2": "Azaroak 29 — Miarritze"
         },
         "reseaux": {
             "titre": "Segi gaitzazue",
@@ -59,35 +59,7 @@
         }
     },
     "news": {
-        "titre": "Berriak",
-        "news": {
-            "titre": "Rugby à XIII (Nationale 3). Déjà qualifié pour les phases finales, Basque XIII est très à son aise dès ses débuts",
-            "texte": "À peine créé et déjà qualifié. Un an après sa fondation, Basque XIII, deuxième à l’issue de la phase régulière, s’est hissé jusqu’en quarts de finale de N3. Si le club labourdin, qui reçoit Caumont-sur-Durance ce dimanche, est parti depuis le plus bas niveau de la discipline, il peut toujours espérer grimper d’un étage dès sa première saison"
-        },
-        "news1": {
-            "date": "2025eko azaroak 5 - Treize Mondial",
-            "texte": "Les bons débuts de Basque XIII"
-        },
-        "news2": {
-            "date": "2025eko urriak 19 - Treize Mondial",
-            "texte": "Basque XIII s'impose à Nantes pour son retour !"
-        },
-        "news3": {
-            "date": "2025eko irailak 6 - Treize Mondial",
-            "texte": "Basque XIII jouera officiellement en DN3"
-        },
-        "news4": {
-            "date": "2025eko agorrilak 27 - Treize Mondial",
-            "texte": "Olivier Dumeaux : « Faire perdurer le club historique de Côte Basque XIII »"
-        },
-        "news5": {
-            "date": "2025eko agorrilak 18 - Rugbyrama",
-            "texte": "\"On s'est rendu compte qu'il y a beaucoup de partisans\" : la révolution du XIII au Pays basque"
-        },
-        "news6": {
-            "date": "2025eko agorrilak 8 - Sud Ouest",
-            "texte": "Anglet. « On n’est pas si perdu dans la masse quinziste » : il tente le pari de remonter un club de rugby à XIII au Pays basque"
-        }
+        "titre": "Berriak"
     },
     "calendrier": {
         "titre": "Egutegia",
@@ -101,9 +73,9 @@
         "matchs": {
             "date1": "Urriak 11",
             "date2": "Urriak 18",
-            "date3": "Azaroak 1",
+            "date3": "Urriak 31",
             "date4": "Azaroak 15",
-            "date5": "Azaroak 26",
+            "date5": "Azaroak 29",
             "date6": "Abenduak 13",
             "date7": "Urtarrilak 17",
             "date8": "Urtarrilak 31",
